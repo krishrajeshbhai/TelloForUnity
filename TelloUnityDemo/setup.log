@@ -1,0 +1,2005 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to the License Client on channel: "LicenseClient-Raj Brass" at "2026-08-05T08:27:33.6286655Z"
+[Licensing::Client] Error: Code 10 while verifying Licensing Client signature (process Id: 5080, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] Error: LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              00f69d79c52a4035928baa519d99f2ee
+  Correlation Id:          7417ffab5c90dba34b4940ddd2b9b887
+  External correlation Id: 7543509692134279595
+  Machine Id:              NCht30bPUYmHQXFv5pZZ6H7jJHQ=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Raj Brass" (connect: 0.00s, validation: 0.01s, handshake: 0.05s)
+[Licensing::IpcConnector] Successfully connected to the License Notification on channel: "LicenseClient-Raj Brass-notifications" at "2026-08-05T08:27:33.687731Z"
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Error: Code 500 while processing request (status: Unable to update licenses. Errors: No ULF license found.,User token expired: User token expired)
+[Licensing::Client] Error: Code 500 while updating license in client (status: Unable to update licenses. Errors: No ULF license found.,User token expired: User token expired)
+Built from '2022.3/staging' branch; Version is '2022.3.40f1 (cbdda657d2f0) revision 13360550'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) 64bit Professional' Language: 'en' Physical Memory: 7916 MB
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Serial number assigned to: "13469882743373-krish7122006-UnityProStuXXXX"
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+[Licensing::Client] Successfully resolved entitlement details
+
+COMMAND LINE ARGUMENTS:
+D:\2022.3.40f1\Editor\Unity.exe
+-quit
+-batchmode
+-projectPath
+d:\RESEARCH\laalo\laalo\TelloUnityDemo
+-executeMethod
+TelloUnityDemo.Editor.ArchitectureSceneSetup.SetupScene
+-logFile
+d:\RESEARCH\laalo\laalo\TelloUnityDemo\setup.log
+Successfully changed project path to: d:\RESEARCH\laalo\laalo\TelloUnityDemo
+D:/RESEARCH/laalo/laalo/TelloUnityDemo
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [25180]  Target information:
+
+Player connection [25180]  * "[IP] 10.0.101.38 [Port] 55504 [Flags] 2 [Guid] 1923835543 [EditorId] 1923835543 [Version] 1048832 [Id] WindowsEditor(7,krish) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [25180] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [25180] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[Package Manager] UpmClient::Connect -- Connected to IPC stream "Upm-1676" after 0.4 seconds.
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 64 packages:
+  Packages from [https://packages.unity.com]:
+    com.meta.xr.sdk.all@201.0.0 (location: D:\RESEARCH\laalo\laalo\TelloUnityDemo\Library\PackageCache\com.meta.xr.sdk.all@201.0.0)
+    com.unity.ads@4.4.2 (location: D:\RESEARCH\laalo\laalo\TelloUnityDemo\Library\PackageCache\com.unity.ads@4.4.2)
+    com.unity.ai.navigation@1.1.5 (location: D:\RESEARCH\laalo\laalo\TelloUnityDemo\Library\PackageCache\com.unity.ai.navigation@1.1.5)
+    com.unity.analytics@3.8.1 (location: D:\RESEARCH\laalo\laalo\TelloUnityDemo\Library\PackageCache\com.unity.analytics@3.8.1)
+    com.unity.collab-proxy@2.4.4 (location: D:\RESEARCH\laalo\laalo\TelloUnityDemo\Library\PackageCache\com.unity.collab-proxy@2.4.4)
+    com.unity.ide.rider@3.0.31 (location: D:\RESEARCH\laalo\laalo\TelloUnityDemo\Library\PackageCache\com.unity.ide.rider@3.0.31)
+    com.unity.ide.visualstudio@2.0.22 (location: D:\RESEARCH\laalo\laalo\TelloUnityDemo\Library\PackageCache\com.unity.ide.visualstudio@2.0.22)
+    com.unity.ide.vscode@1.2.5 (location: D:\RESEARCH\laalo\laalo\TelloUnityDemo\Library\PackageCache\com.unity.ide.vscode@1.2.5)
+    com.unity.test-framework@1.1.33 (location: D:\RESEARCH\laalo\laalo\TelloUnityDemo\Library\PackageCache\com.unity.test-framework@1.1.33)
+    com.unity.textmeshpro@3.0.6 (location: D:\RESEARCH\laalo\laalo\TelloUnityDemo\Library\PackageCache\com.unity.textmeshpro@3.0.6)
+    com.unity.timeline@1.7.6 (location: D:\RESEARCH\laalo\laalo\TelloUnityDemo\Library\PackageCache\com.unity.timeline@1.7.6)
+    com.unity.ext.nunit@1.0.6 (location: D:\RESEARCH\laalo\laalo\TelloUnityDemo\Library\PackageCache\com.unity.ext.nunit@1.0.6)
+    com.unity.services.analytics@5.0.0 (location: D:\RESEARCH\laalo\laalo\TelloUnityDemo\Library\PackageCache\com.unity.services.analytics@5.0.0)
+    com.meta.xr.sdk.core@201.0.0 (location: D:\RESEARCH\laalo\laalo\TelloUnityDemo\Library\PackageCache\com.meta.xr.sdk.core@201.0.0)
+    com.meta.xr.sdk.audio@85.0.0 (location: D:\RESEARCH\laalo\laalo\TelloUnityDemo\Library\PackageCache\com.meta.xr.sdk.audio@85.0.0)
+    com.meta.xr.sdk.voice@85.0.0 (location: D:\RESEARCH\laalo\laalo\TelloUnityDemo\Library\PackageCache\com.meta.xr.sdk.voice@85.0.0)
+    com.meta.xr.sdk.haptics@201.0.0 (location: D:\RESEARCH\laalo\laalo\TelloUnityDemo\Library\PackageCache\com.meta.xr.sdk.haptics@201.0.0)
+    com.meta.xr.mrutilitykit@201.0.0 (location: D:\RESEARCH\laalo\laalo\TelloUnityDemo\Library\PackageCache\com.meta.xr.mrutilitykit@201.0.0)
+    com.meta.xr.sdk.platform@201.0.0 (location: D:\RESEARCH\laalo\laalo\TelloUnityDemo\Library\PackageCache\com.meta.xr.sdk.platform@201.0.0)
+    com.meta.xr.sdk.interaction@201.0.0 (location: D:\RESEARCH\laalo\laalo\TelloUnityDemo\Library\PackageCache\com.meta.xr.sdk.interaction@201.0.0)
+    com.meta.xr.sdk.interaction.ovr@201.0.0 (location: D:\RESEARCH\laalo\laalo\TelloUnityDemo\Library\PackageCache\com.meta.xr.sdk.interaction.ovr@201.0.0)
+    com.unity.services.core@1.12.5 (location: D:\RESEARCH\laalo\laalo\TelloUnityDemo\Library\PackageCache\com.unity.services.core@1.12.5)
+    com.unity.inputsystem@1.7.0 (location: D:\RESEARCH\laalo\laalo\TelloUnityDemo\Library\PackageCache\com.unity.inputsystem@1.7.0)
+    com.unity.nuget.newtonsoft-json@3.2.1 (location: D:\RESEARCH\laalo\laalo\TelloUnityDemo\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.1)
+    com.unity.xr.hands@1.7.2 (location: D:\RESEARCH\laalo\laalo\TelloUnityDemo\Library\PackageCache\com.unity.xr.hands@1.7.2)
+    com.unity.mathematics@1.2.6 (location: D:\RESEARCH\laalo\laalo\TelloUnityDemo\Library\PackageCache\com.unity.mathematics@1.2.6)
+    com.unity.xr.core-utils@2.3.0 (location: D:\RESEARCH\laalo\laalo\TelloUnityDemo\Library\PackageCache\com.unity.xr.core-utils@2.3.0)
+    com.unity.xr.management@4.4.0 (location: D:\RESEARCH\laalo\laalo\TelloUnityDemo\Library\PackageCache\com.unity.xr.management@4.4.0)
+    com.unity.xr.legacyinputhelpers@2.1.10 (location: D:\RESEARCH\laalo\laalo\TelloUnityDemo\Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.10)
+  Built-in packages:
+    com.unity.2d.sprite@1.0.0 (location: D:\RESEARCH\laalo\laalo\TelloUnityDemo\Library\PackageCache\com.unity.2d.sprite@1.0.0)
+    com.unity.2d.tilemap@1.0.0 (location: D:\RESEARCH\laalo\laalo\TelloUnityDemo\Library\PackageCache\com.unity.2d.tilemap@1.0.0)
+    com.unity.ugui@1.0.0 (location: D:\RESEARCH\laalo\laalo\TelloUnityDemo\Library\PackageCache\com.unity.ugui@1.0.0)
+    com.unity.modules.ai@1.0.0 (location: D:\RESEARCH\laalo\laalo\TelloUnityDemo\Library\PackageCache\com.unity.modules.ai@1.0.0)
+    com.unity.modules.androidjni@1.0.0 (location: D:\RESEARCH\laalo\laalo\TelloUnityDemo\Library\PackageCache\com.unity.modules.androidjni@1.0.0)
+    com.unity.modules.animation@1.0.0 (location: D:\RESEARCH\laalo\laalo\TelloUnityDemo\Library\PackageCache\com.unity.modules.animation@1.0.0)
+    com.unity.modules.assetbundle@1.0.0 (location: D:\RESEARCH\laalo\laalo\TelloUnityDemo\Library\PackageCache\com.unity.modules.assetbundle@1.0.0)
+    com.unity.modules.audio@1.0.0 (location: D:\RESEARCH\laalo\laalo\TelloUnityDemo\Library\PackageCache\com.unity.modules.audio@1.0.0)
+    com.unity.modules.cloth@1.0.0 (location: D:\RESEARCH\laalo\laalo\TelloUnityDemo\Library\PackageCache\com.unity.modules.cloth@1.0.0)
+    com.unity.modules.director@1.0.0 (location: D:\RESEARCH\laalo\laalo\TelloUnityDemo\Library\PackageCache\com.unity.modules.director@1.0.0)
+    com.unity.modules.imageconversion@1.0.0 (location: D:\RESEARCH\laalo\laalo\TelloUnityDemo\Library\PackageCache\com.unity.modules.imageconversion@1.0.0)
+    com.unity.modules.imgui@1.0.0 (location: D:\RESEARCH\laalo\laalo\TelloUnityDemo\Library\PackageCache\com.unity.modules.imgui@1.0.0)
+    com.unity.modules.jsonserialize@1.0.0 (location: D:\RESEARCH\laalo\laalo\TelloUnityDemo\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0)
+    com.unity.modules.particlesystem@1.0.0 (location: D:\RESEARCH\laalo\laalo\TelloUnityDemo\Library\PackageCache\com.unity.modules.particlesystem@1.0.0)
+    com.unity.modules.physics@1.0.0 (location: D:\RESEARCH\laalo\laalo\TelloUnityDemo\Library\PackageCache\com.unity.modules.physics@1.0.0)
+    com.unity.modules.physics2d@1.0.0 (location: D:\RESEARCH\laalo\laalo\TelloUnityDemo\Library\PackageCache\com.unity.modules.physics2d@1.0.0)
+    com.unity.modules.screencapture@1.0.0 (location: D:\RESEARCH\laalo\laalo\TelloUnityDemo\Library\PackageCache\com.unity.modules.screencapture@1.0.0)
+    com.unity.modules.terrain@1.0.0 (location: D:\RESEARCH\laalo\laalo\TelloUnityDemo\Library\PackageCache\com.unity.modules.terrain@1.0.0)
+    com.unity.modules.terrainphysics@1.0.0 (location: D:\RESEARCH\laalo\laalo\TelloUnityDemo\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0)
+    com.unity.modules.tilemap@1.0.0 (location: D:\RESEARCH\laalo\laalo\TelloUnityDemo\Library\PackageCache\com.unity.modules.tilemap@1.0.0)
+    com.unity.modules.ui@1.0.0 (location: D:\RESEARCH\laalo\laalo\TelloUnityDemo\Library\PackageCache\com.unity.modules.ui@1.0.0)
+    com.unity.modules.uielements@1.0.0 (location: D:\RESEARCH\laalo\laalo\TelloUnityDemo\Library\PackageCache\com.unity.modules.uielements@1.0.0)
+    com.unity.modules.umbra@1.0.0 (location: D:\RESEARCH\laalo\laalo\TelloUnityDemo\Library\PackageCache\com.unity.modules.umbra@1.0.0)
+    com.unity.modules.unityanalytics@1.0.0 (location: D:\RESEARCH\laalo\laalo\TelloUnityDemo\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0)
+    com.unity.modules.unitywebrequest@1.0.0 (location: D:\RESEARCH\laalo\laalo\TelloUnityDemo\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: D:\RESEARCH\laalo\laalo\TelloUnityDemo\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: D:\RESEARCH\laalo\laalo\TelloUnityDemo\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: D:\RESEARCH\laalo\laalo\TelloUnityDemo\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: D:\RESEARCH\laalo\laalo\TelloUnityDemo\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0)
+    com.unity.modules.vehicles@1.0.0 (location: D:\RESEARCH\laalo\laalo\TelloUnityDemo\Library\PackageCache\com.unity.modules.vehicles@1.0.0)
+    com.unity.modules.video@1.0.0 (location: D:\RESEARCH\laalo\laalo\TelloUnityDemo\Library\PackageCache\com.unity.modules.video@1.0.0)
+    com.unity.modules.vr@1.0.0 (location: D:\RESEARCH\laalo\laalo\TelloUnityDemo\Library\PackageCache\com.unity.modules.vr@1.0.0)
+    com.unity.modules.wind@1.0.0 (location: D:\RESEARCH\laalo\laalo\TelloUnityDemo\Library\PackageCache\com.unity.modules.wind@1.0.0)
+    com.unity.modules.xr@1.0.0 (location: D:\RESEARCH\laalo\laalo\TelloUnityDemo\Library\PackageCache\com.unity.modules.xr@1.0.0)
+    com.unity.modules.subsystems@1.0.0 (location: D:\RESEARCH\laalo\laalo\TelloUnityDemo\Library\PackageCache\com.unity.modules.subsystems@1.0.0)
+[Subsystems] No new subsystems found in resolved package list.
+Package Manager log level set to [2]
+[Package Manager] Done registering packages in 0.12 seconds
+Refreshing native plugins compatible for Editor in 62.54 ms, found 18 plugins.
+Unity memory allocator detected: MetaXRAudio native memory allocations will be tracked.
+Preloading 2 native plugins for Editor in 10.66 ms.
+Initialize engine version: 2022.3.40f1 (cbdda657d2f0)
+[Subsystems] Discovering subsystems at path D:/2022.3.40f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/RESEARCH/laalo/laalo/TelloUnityDemo/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics (ID=0x46b3)
+    Vendor:   Intel
+    VRAM:     3958 MB
+    Driver:   32.0.101.7082
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+[Licensing::Client] Successfully resolved entitlement details
+Initialize mono
+Mono path[0] = 'D:/2022.3.40f1/Editor/Data/Managed'
+Mono path[1] = 'D:/2022.3.40f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/2022.3.40f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56676
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+ImportWorker Server TCP listen port: 0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+[Licensing::Client] Successfully resolved entitlement details
+Register platform support module: D:/2022.3.40f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/2022.3.40f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.020856 seconds.
+- Loaded All Assemblies, in  0.463 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 2753 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.161 seconds
+Domain Reload Profiling: 3624ms
+	BeginReloadAssembly (134ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (69ms)
+	LoadAllAssembliesAndSetupDomain (212ms)
+		LoadAssemblies (133ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (210ms)
+			TypeCache.Refresh (208ms)
+				TypeCache.ScanAssembly (184ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (3162ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3087ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2925ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (114ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+[ScriptCompilation] Requested script compilation because: Assetdatabase observed changes in script compilation related files
+info: Microsoft.Hosting.Lifetime[14]
+      Now listening on: http://localhost:80
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Production
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: D:\RESEARCH\laalo\laalo\TelloUnityDemo\
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping application/grpc - - 200 - application/grpc 66.8592ms
+Starting: D:\2022.3.40f1\Editor\Data\bee_backend.exe --dont-print-to-structured-log --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: D:/RESEARCH/laalo/laalo/TelloUnityDemo
+DisplayProgressbar: Compiling Scripts
+ExitCode: 4 Duration: 0s783ms
+Rebuilding DAG because FileSignature timestamp changed: Library/Bee/1900b0aE-inputdata.json
+[1306/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll (+2 others)
+##### CommandLine
+"D:\2022.3.40f1\Editor\Data\NetCoreRuntime\dotnet.exe" exec "D:/2022.3.40f1/Editor/Data/DotNetSdkRoslyn/csc.dll" /nostdlib /noconfig /shared "@Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.rsp" "@Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.rsp2"
+##### Contents of Library\Bee\artifacts\1900b0aE.dag\Assembly-CSharp-Editor.rsp
+-target:library
+-out:"Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll"
+-refout:"Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.ref.dll"
+-define:UNITY_2022_3_40
+-define:UNITY_2022_3
+-define:UNITY_2022
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_5_OR_NEWER
+-define:UNITY_5_6_OR_NEWER
+-define:UNITY_2017_1_OR_NEWER
+-define:UNITY_2017_2_OR_NEWER
+-define:UNITY_2017_3_OR_NEWER
+-define:UNITY_2017_4_OR_NEWER
+-define:UNITY_2018_1_OR_NEWER
+-define:UNITY_2018_2_OR_NEWER
+-define:UNITY_2018_3_OR_NEWER
+-define:UNITY_2018_4_OR_NEWER
+-define:UNITY_2019_1_OR_NEWER
+-define:UNITY_2019_2_OR_NEWER
+-define:UNITY_2019_3_OR_NEWER
+-define:UNITY_2019_4_OR_NEWER
+-define:UNITY_2020_1_OR_NEWER
+-define:UNITY_2020_2_OR_NEWER
+-define:UNITY_2020_3_OR_NEWER
+-define:UNITY_2021_1_OR_NEWER
+-define:UNITY_2021_2_OR_NEWER
+-define:UNITY_2021_3_OR_NEWER
+-define:UNITY_2022_1_OR_NEWER
+-define:UNITY_2022_2_OR_NEWER
+-define:UNITY_2022_3_OR_NEWER
+-define:PLATFORM_ARCH_64
+-define:UNITY_64
+-define:UNITY_INCLUDE_TESTS
+-define:UNITY_ANALYTICS
+-define:ENABLE_AR
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_EVENT_QUEUE
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_TEXTURE_STREAMING
+-define:ENABLE_VIRTUALTEXTURING
+-define:ENABLE_LZMA
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_VR
+-define:ENABLE_WEBCAM
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_EDITOR_GAME_SERVICES
+-define:ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_HUB_LICENSE
+-define:ENABLE_WEBSOCKET_CLIENT
+-define:ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API
+-define:ENABLE_DIRECTOR_AUDIO
+-define:ENABLE_DIRECTOR_TEXTURE
+-define:ENABLE_MANAGED_JOBS
+-define:ENABLE_MANAGED_TRANSFORM_JOBS
+-define:ENABLE_MANAGED_ANIMATION_JOBS
+-define:ENABLE_MANAGED_AUDIO_JOBS
+-define:ENABLE_MANAGED_UNITYTLS
+-define:INCLUDE_DYNAMIC_GI
+-define:ENABLE_SCRIPTING_GC_WBARRIERS
+-define:PLATFORM_SUPPORTS_MONO
+-define:RENDER_SOFTWARE_CURSOR
+-define:ENABLE_VIDEO
+-define:ENABLE_ACCELERATOR_CLIENT_DEBUGGING
+-define:ENABLE_NAVIGATION_PACKAGE_DEBUG_VISUALIZATION
+-define:ENABLE_NAVIGATION_HEIGHTMESH_RUNTIME_SUPPORT
+-define:ENABLE_NAVIGATION_UI_REQUIRES_PACKAGE
+-define:PLATFORM_STANDALONE
+-define:TEXTCORE_1_0_OR_NEWER
+-define:PLATFORM_STANDALONE_WIN
+-define:UNITY_STANDALONE_WIN
+-define:UNITY_STANDALONE
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_MOVIES
+-define:ENABLE_NETWORK
+-define:ENABLE_NVIDIA
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_OUT_OF_PROCESS_CRASH_HANDLER
+-define:ENABLE_CLUSTER_SYNC
+-define:ENABLE_CLUSTERINPUT
+-define:PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP
+-define:GFXDEVICE_WAITFOREVENT_MESSAGEPUMP
+-define:PLATFORM_INITIALIZES_MEMORY_MANAGER_EXPLICITLY
+-define:ENABLE_MONO
+-define:NET_4_6
+-define:NET_UNITY_4_8
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_WIN
+-define:ENABLE_UNITY_COLLECTIONS_CHECKS
+-define:ENABLE_BURST_AOT
+-define:UNITY_TEAM_LICENSE
+-define:UNITY_PRO_LICENSE
+-define:ENABLE_CUSTOM_RENDER_TEXTURE
+-define:ENABLE_DIRECTOR
+-define:ENABLE_LOCALIZATION
+-define:ENABLE_SPRITES
+-define:ENABLE_TERRAIN
+-define:ENABLE_TILEMAP
+-define:ENABLE_TIMELINE
+-define:ENABLE_INPUT_SYSTEM
+-define:ENABLE_LEGACY_INPUT_MANAGER
+-define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
+-define:UNITY_POST_PROCESSING_STACK_V2
+-define:OVR_DISABLE_HAND_PINCH_BUTTON_MAPPING
+-define:CSHARP_7_OR_LATER
+-define:CSHARP_7_3_OR_NEWER
+-define:UNITY_EDITOR_ONLY_COMPILATION
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEditor.DiagnosticsModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEditor.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEditor.EditorToolbarModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEditor.GraphViewModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEditor.PresetsUIModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEditor.QuickSearchModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEditor.SceneTemplateModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEditor.SceneViewModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEditor.TextCoreFontEngineModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEditor.TextCoreTextEngineModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIBuilderModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIElementsModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIElementsSamplesModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.ContentLoadModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.GIModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.NVIDIAModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.PropertiesModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubsystemsModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreFontEngineModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreTextEngineModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsCommonModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityCurlModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.VirtualTexturingModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Gradle.dll"
+-r:"D:/2022.3.40f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.GradleProject.dll"
+-r:"D:/2022.3.40f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll"
+-r:"D:/2022.3.40f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll"
+-r:"D:/2022.3.40f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/Microsoft.Win32.Primitives.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/netstandard.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.AppContext.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Buffers.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Collections.Concurrent.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Collections.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Collections.NonGeneric.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Collections.Specialized.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ComponentModel.Annotations.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ComponentModel.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ComponentModel.EventBasedAsync.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ComponentModel.Primitives.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ComponentModel.TypeConverter.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Console.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Data.Common.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.Contracts.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.Debug.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.FileVersionInfo.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.Process.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.StackTrace.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.TextWriterTraceListener.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.Tools.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.TraceSource.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Drawing.Primitives.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Dynamic.Runtime.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Globalization.Calendars.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Globalization.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Globalization.Extensions.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.Compression.ZipFile.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.FileSystem.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.FileSystem.DriveInfo.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.FileSystem.Primitives.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.FileSystem.Watcher.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.IsolatedStorage.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.MemoryMappedFiles.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.Pipes.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.UnmanagedMemoryStream.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Linq.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Linq.Expressions.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Linq.Parallel.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Linq.Queryable.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Memory.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Http.Rtc.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.NameResolution.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.NetworkInformation.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Ping.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Primitives.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Requests.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Security.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Sockets.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.WebHeaderCollection.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.WebSockets.Client.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.WebSockets.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ObjectModel.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.DispatchProxy.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.Emit.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.Emit.ILGeneration.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.Emit.Lightweight.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.Extensions.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.Primitives.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Resources.Reader.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Resources.ResourceManager.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Resources.Writer.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.CompilerServices.VisualC.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Extensions.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Handles.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.InteropServices.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.InteropServices.RuntimeInformation.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.InteropServices.WindowsRuntime.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Numerics.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Serialization.Formatters.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Serialization.Json.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Serialization.Primitives.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Serialization.Xml.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Claims.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Cryptography.Algorithms.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Cryptography.Csp.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Cryptography.Encoding.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Cryptography.Primitives.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Cryptography.X509Certificates.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Principal.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.SecureString.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ServiceModel.Duplex.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ServiceModel.Http.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ServiceModel.NetTcp.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ServiceModel.Primitives.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ServiceModel.Security.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Text.Encoding.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Text.Encoding.Extensions.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Text.RegularExpressions.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Overlapped.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Tasks.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Tasks.Extensions.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Tasks.Parallel.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Thread.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.ThreadPool.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Timer.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ValueTuple.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.ReaderWriter.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.XDocument.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.XmlDocument.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.XmlSerializer.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.XPath.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.XPath.XDocument.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Microsoft.CSharp.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/mscorlib.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.ComponentModel.Composition.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Core.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Data.DataSetExtensions.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Data.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Drawing.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.IO.Compression.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.IO.Compression.FileSystem.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Net.Http.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Numerics.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Numerics.Vectors.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Runtime.Serialization.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Transactions.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.Linq.dll"
+-r:"Library/PackageCache/com.unity.analytics@3.8.1/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll"
+-r:"Library/PackageCache/com.unity.analytics@3.8.1/Unity.Analytics.Editor.dll"
+-r:"Library/PackageCache/com.unity.analytics@3.8.1/Unity.Analytics.Tracker.dll"
+-r:"Library/PackageCache/com.unity.collab-proxy@2.4.4/Lib/Editor/PlasticSCM/log4netPlastic.dll"
+-r:"Library/PackageCache/com.unity.collab-proxy@2.4.4/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll"
+-r:"Library/PackageCache/com.unity.collab-proxy@2.4.4/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll"
+-r:"Library/PackageCache/com.unity.collab-proxy@2.4.4/Lib/Editor/PlasticSCM/unityplastic.dll"
+-r:"Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
+-r:"Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/Newtonsoft.Json.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Analytics.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/AssistantCoreSDKEditor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/AssistantCoreSDKRuntime.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/AssistantVoiceCommandCommon.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/AssistantVoiceCommandCommon.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.Net.endel.nativewebsocket.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.Voice.Hub.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.Voice.Hub.Runtime.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.Voice.NLayer.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.Voice.Opus.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.Voice.VSDKHub.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.VoiceSDK.Mic.Common.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.VoiceSDK.Mic.Other.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.VoiceSDK.Mic.WebGL.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.Wit.Composer.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.Wit.Composer.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.Wit.Dictation.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.Wit.Dictation.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.WitAi.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.WitAI.Lib.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.WitAi.Lib.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.WitAi.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.WitAi.TTS.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.WitAi.TTS.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Audio.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Audio.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.BuildingBlocks.AIBlocks.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.BuildingBlocks.DepthAPI.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.BuildingBlocks.DepthAPI.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.BuildingBlocks.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.BuildingBlocks.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.BuildingBlocks.AIBlocks.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.Callbacks.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.EditorCoroutine.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.Guide.About.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.Id.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.Notifications.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.PlayCompanion.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.Reflection.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.RemoteContent.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.Settings.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.StatusMenu.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.Tags.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.TelemetryUI.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.ToolingSupport.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.ToolingSupport.RuntimeOptimizer.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.UPST.Notifications.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.UserInterface.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.EnvironmentDepth.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.EnvironmentDepth.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Guides.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.ImmersiveDebugger.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.ImmersiveDebugger.Interface.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.ImmersiveDebugger.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.MetaWand.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/meta.xr.mrutilitykit.editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/meta.xr.mrutilitykit.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.MultiplayerBlocks.Fusion.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.MultiplayerBlocks.NGO.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.MultiplayerBlocks.Shared.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.MultiplayerBlocks.Shared.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/MetaXRSimulatorCore.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Oculus.Haptics.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Oculus.Haptics.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Oculus.Interaction.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Oculus.Interaction.InterfaceSupport.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Oculus.Interaction.OVR.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Oculus.Interaction.OVR.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Oculus.Interaction.OVR.Samples.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Oculus.Interaction.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Oculus.Interaction.Samples.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Oculus.Interaction.Samples.Editor.UISet.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Oculus.Interaction.Samples.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Oculus.Platform.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Oculus.Platform.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Oculus.VR.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Oculus.VR.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Oculus.VR.Scripts.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.2D.Sprite.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.2D.Tilemap.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.Editor.ConversionSystem.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.Updater.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Analytics.DataPrivacy.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.ForUI.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Mathematics.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Mathematics.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.PlasticSCM.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Rider.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Analytics.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Analytics.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Analytics.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Environments.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VisualStudio.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.XR.CoreUtils.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.XR.CoreUtils.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.XR.Hands.Analytics.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.XR.Hands.Analytics.Hooks.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.XR.Hands.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.XR.Hands.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.XR.Management.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.XR.Management.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.SpatialTracking.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.TestRunner.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.XR.LegacyInputHelpers.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Advertisements.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Advertisements.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.SpatialTracking.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.TestRunner.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/VoiceSDK.Dictation.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/VoiceSDK.Dictation.Runtime.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/VoiceSDK.Editor.Composer.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/VoiceSDK.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/VoiceSDK.Runtime.Composer.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/VoiceSDK.Runtime.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/VoiceSDK.Telemetry.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/VoiceSDK.Telemetry.Runtime.ref.dll"
+-analyzer:"D:/2022.3.40f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
+-analyzer:"D:/2022.3.40f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
+"Assets/Editor/ArchitectureSceneSetup.cs"
+-langversion:9.0
+/unsafe+
+/deterministic
+/optimize+
+/debug:portable
+/nologo
+/RuntimeMetadataVersion:v4.0.30319
+/nowarn:0169
+/nowarn:0649
+/nowarn:0282
+/nowarn:1701
+/nowarn:1702
+/utf8output
+/preferreduilang:en-US
+/additionalfile:"Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.UnityAdditionalFile.txt"
+##### Custom Environment Variables
+DOTNET_MULTILEVEL_LOOKUP=0
+##### ExitCode
+1
+##### Output
+Assets\Editor\ArchitectureSceneSetup.cs(35,65): error CS1001: Identifier expected
+
+Assets\Editor\ArchitectureSceneSetup.cs(35,65): error CS1002: ; expected
+*** Tundra requires additional run (0.72 seconds), 1 items updated, 1305 evaluated
+Starting: D:\2022.3.40f1\Editor\Data\Tools\netcorerun\netcorerun.exe "D:\2022.3.40f1\Editor\Data\Tools\BuildPipeline\ScriptCompilationBuildProgram.exe" "Library/Bee/1900b0aE.dag.json" "Library/Bee/1900b0aE-inputdata.json" "Library\Bee\buildprogram0.traceevents"
+WorkingDir: D:/RESEARCH/laalo/laalo/TelloUnityDemo
+ExitCode: 0 Duration: 0s619ms
+Starting: D:\2022.3.40f1\Editor\Data\bee_backend.exe --dont-print-to-structured-log --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --dagfilejson="Library\Bee\1900b0aE.dag.json" --profile="Library/Bee/backend2.traceevents" ScriptAssemblies
+WorkingDir: D:/RESEARCH/laalo/laalo/TelloUnityDemo
+ExitCode: 3 Duration: 4s721ms
+Finished compiling graph: 1313 nodes, 21324 flattened edges (18330 ToBuild, 290 ToUse), maximum node priority 1068
+[ 131/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.rsp
+[ 132/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.rsp
+[ 134/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.XR.CoreUtils.rsp
+[ 135/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEditor.TestRunner.rsp
+[ 139/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.rsp
+[ 141/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.XR.Management.Editor.rsp
+[ 145/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.XR.Management.rsp
+[ 149/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.rsp
+[ 151/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Mathematics.rsp
+[ 152/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.SpatialTracking.rsp
+[ 154/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.TestRunner.rsp
+[ 162/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.XR.Hands.rsp
+[ 170/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.Callbacks.rsp
+[ 182/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.Id.rsp
+[ 185/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Oculus.VR.rsp
+[ 187/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.Settings.rsp
+[ 188/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/AssistantCoreSDKRuntime.rsp
+[ 196/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.EditorCoroutine.rsp
+[ 200/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/VoiceSDK.Telemetry.Runtime.rsp
+[ 201/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/AssistantCoreSDKEditor.rsp
+[ 202/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.RemoteContent.rsp
+[ 204/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.Reflection.rsp
+[ 207/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/VoiceSDK.Telemetry.rsp
+[ 208/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Meta.Voice.NLayer.rsp
+[ 219/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Meta.Voice.Opus.rsp
+[ 220/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.UserInterface.rsp
+[ 221/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Meta.Net.endel.nativewebsocket.rsp
+[ 233/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.rsp
+[ 234/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Meta.WitAi.Lib.rsp
+[ 240/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.Tags.rsp
+[ 244/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Meta.VoiceSDK.Mic.Common.rsp
+[ 248/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.ToolingSupport.rsp
+[ 250/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Meta.VoiceSDK.Mic.Other.rsp
+[ 258/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Meta.VoiceSDK.Mic.WebGL.rsp
+[ 260/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Meta.WitAi.rsp
+[ 263/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Meta.XR.ImmersiveDebugger.Interface.rsp
+[ 268/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Internal.rsp
+[ 277/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.XR.CoreUtils.Editor.rsp
+[ 279/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.Notifications.rsp
+[ 280/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.Editor.rsp
+[ 286/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Oculus.Platform.rsp
+[ 291/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Meta.WitAI.Lib.Editor.rsp
+[ 292/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Guides.Editor.rsp
+[ 293/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Meta.XR.BuildingBlocks.rsp
+[ 306/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.StatusMenu.rsp
+[ 308/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Meta.WitAi.Editor.rsp
+[ 310/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/AssistantVoiceCommandCommon.rsp
+[ 314/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.rsp
+[ 318/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Oculus.Interaction.rsp
+[ 319/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Meta.WitAi.TTS.rsp
+[ 326/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Oculus.VR.Editor.rsp
+[ 328/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Meta.Voice.Hub.Runtime.rsp
+[ 331/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Meta.XR.EnvironmentDepth.rsp
+[ 338/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Meta.Wit.Dictation.rsp
+[ 352/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Meta.XR.ImmersiveDebugger.rsp
+[ 355/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Meta.Voice.Hub.Editor.rsp
+[ 358/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/VoiceSDK.Runtime.rsp
+[ 360/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Telemetry.rsp
+[ 367/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Meta.WitAi.TTS.Editor.rsp
+[ 368/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Environments.rsp
+[ 370/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Configuration.rsp
+[ 372/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/VoiceSDK.Dictation.Runtime.rsp
+[ 381/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Scheduler.rsp
+[ 384/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Device.rsp
+[ 391/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Threading.rsp
+[ 392/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Environments.Internal.rsp
+[ 393/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Meta.Voice.VSDKHub.Editor.rsp
+[ 394/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/meta.xr.mrutilitykit.rsp
+[ 395/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.Editor.ConversionSystem.rsp
+[ 396/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Oculus.Haptics.rsp
+[ 402/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Audio.rsp
+[ 409/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.UPST.Notifications.rsp
+[ 410/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/VoiceSDK.Dictation.Editor.rsp
+[ 414/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/VoiceSDK.Editor.rsp
+[ 422/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Oculus.VR.Scripts.Editor.rsp
+[ 431/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Configuration.Editor.rsp
+[ 436/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Networking.rsp
+[ 440/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Registration.rsp
+[ 441/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Meta.XR.BuildingBlocks.Editor.rsp
+[ 442/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Oculus.Interaction.Editor.rsp
+[ 443/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.XR.Hands.Analytics.Editor.rsp
+[ 446/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.rsp
+[ 451/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.Editor.rsp
+[ 452/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Oculus.Interaction.OVR.rsp
+[ 459/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.XR.LegacyInputHelpers.rsp
+[ 461/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Oculus.Interaction.OVR.Editor.rsp
+[ 476/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Editor.rsp
+[ 514/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Meta.Wit.Composer.rsp
+[ 515/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Meta.XR.MultiplayerBlocks.Shared.rsp
+[ 541/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.PlayCompanion.rsp
+[ 542/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.XR.Hands.Analytics.Hooks.Editor.rsp
+[ 543/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualStudio.Editor.rsp
+[ 544/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Oculus.Interaction.Samples.rsp
+[ 545/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Analytics.rsp
+[ 546/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.rsp
+[ 547/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Meta.XR.MultiplayerBlocks.Shared.Editor.rsp
+[ 548/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.PlasticSCM.Editor.rsp
+[ 549/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEditor.XR.LegacyInputHelpers.rsp
+[ 550/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.Updater.rsp
+[ 551/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Analytics.Editor.rsp
+[ 552/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Analytics.rsp
+[ 553/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Advertisements.Editor.rsp
+[ 554/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.ForUI.rsp
+[ 555/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.2D.Tilemap.Editor.rsp
+[ 556/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.Editor.rsp
+[ 557/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Advertisements.rsp
+[ 558/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Analytics.DataPrivacy.rsp
+[ 559/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Mathematics.Editor.rsp
+[ 560/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.XR.Hands.Editor.rsp
+[ 561/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.2D.Sprite.Editor.rsp
+[ 562/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Rider.Editor.rsp
+[ 563/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEditor.SpatialTracking.rsp
+[ 564/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/MetaXRSimulatorCore.Editor.rsp
+[ 587/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/VoiceSDK.Runtime.Composer.rsp
+[ 620/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Meta.XR.EnvironmentDepth.Editor.rsp
+[ 630/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Meta.XR.BuildingBlocks.DepthAPI.rsp
+[ 631/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Meta.XR.BuildingBlocks.AIBlocks.rsp
+[ 632/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Meta.XR.ImmersiveDebugger.Editor.rsp
+[ 633/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Oculus.Interaction.InterfaceSupport.rsp
+[ 634/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.ToolingSupport.RuntimeOptimizer.rsp
+[ 635/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Oculus.Interaction.Samples.Editor.rsp
+[ 636/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.TelemetryUI.rsp
+[ 637/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Meta.XR.BuildingBlocks.DepthAPI.Editor.rsp
+[ 638/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Oculus.Interaction.Samples.Editor.UISet.rsp
+[ 639/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.BuildingBlocks.AIBlocks.rsp
+[ 640/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/meta.xr.mrutilitykit.editor.rsp
+[ 641/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.Guide.About.rsp
+[ 642/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Meta.XR.MetaWand.Editor.rsp
+[ 643/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Meta.XR.MultiplayerBlocks.Fusion.Editor.rsp
+[ 644/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/AssistantVoiceCommandCommon.Editor.rsp
+[ 645/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/VoiceSDK.Editor.Composer.rsp
+[ 646/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Oculus.Haptics.Editor.rsp
+[ 647/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Meta.Wit.Dictation.Editor.rsp
+[ 648/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Meta.Wit.Composer.Editor.rsp
+[ 652/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Meta.XR.MultiplayerBlocks.NGO.Editor.rsp
+[ 668/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Oculus.Platform.Editor.rsp
+[ 669/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Oculus.Interaction.OVR.Samples.rsp
+[ 670/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Audio.Editor.rsp
+[ 671/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Analytics.rsp
+[ 672/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.TestFramework.rsp
+[ 673/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp
+[ 674/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.rsp
+[ 675/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Environments.Editor.rsp
+[ 676/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.CollabProxy.Editor.rsp
+[ 677/1309  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Advertisements.DevX.Editor.rsp
+[ 677/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/UnityEngine.TestRunner.dll (+2 others) [CacheHit 73cdb880615f8e2a1a13d9512806569d00000000000000000000000000000003]
+[ 678/1309 1785918462s] Csc Library/Bee/artifacts/1900b0aE.dag/UnityEngine.TestRunner.dll (+2 others)
+[ 682/1309  0s] CopyFiles Library/ScriptAssemblies/UnityEngine.TestRunner.pdb
+[ 683/1309  0s] CopyFiles Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+[ 682/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.dll (+2 others) [CacheHit 77925b096424bddeb098c38122f2f56a00000000000000000000000000000003]
+[ 684/1309 1785918462s] Csc Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.dll (+2 others)
+[ 687/1309  0s] CopyFiles Library/ScriptAssemblies/UnityEngine.UI.dll
+[ 688/1309  0s] CopyFiles Library/ScriptAssemblies/UnityEngine.UI.pdb
+[ 686/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/UnityEditor.TestRunner.dll (+2 others) [CacheHit a3b679004639f908d9c50e4d3f9e417e00000000000000000000000000000003]
+[ 689/1309 1785918462s] Csc Library/Bee/artifacts/1900b0aE.dag/UnityEditor.TestRunner.dll (+2 others)
+[ 693/1309  0s] CopyFiles Library/ScriptAssemblies/UnityEditor.TestRunner.pdb
+[ 694/1309  0s] CopyFiles Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+[ 691/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.dll (+2 others) [CacheHit 0299aa441288e9cb3182f056d29e18a600000000000000000000000000000003]
+[ 695/1309 1785918462s] Csc Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.dll (+2 others)
+[ 704/1309  0s] CopyFiles Library/ScriptAssemblies/UnityEditor.UI.pdb
+[ 705/1309  0s] CopyFiles Library/ScriptAssemblies/UnityEditor.UI.dll
+[ 704/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/AssistantCoreSDKRuntime.dll (+2 others) [CacheHit d99280d96a98f7a4a4ecfe235fac84e200000000000000000000000000000003]
+[ 704/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.Id.dll (+2 others) [CacheHit 2a6d7aaa65aa0f2525ff73844885cf6200000000000000000000000000000003]
+[ 704/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.dll (+2 others) [CacheHit c6c4dd3928ddbe9560670b917f6e5f8000000000000000000000000000000003]
+[ 704/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/UnityEngine.SpatialTracking.dll (+2 others) [CacheHit 94393622a9acbc2c00ac7a6116f21ad800000000000000000000000000000003]
+[ 709/1309 1785918462s] Csc Library/Bee/artifacts/1900b0aE.dag/UnityEngine.SpatialTracking.dll (+2 others)
+[ 710/1309 1785918462s] Csc Library/Bee/artifacts/1900b0aE.dag/AssistantCoreSDKRuntime.dll (+2 others)
+[ 713/1309 1785918462s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.dll (+2 others)
+[ 715/1309 1785918462s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.Id.dll (+2 others)
+[ 712/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.XR.Management.dll (+2 others) [CacheHit 12b7caf093a7420480c7e50f53289bff00000000000000000000000000000003]
+[ 721/1309 1785918462s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.XR.Management.dll (+2 others)
+[ 718/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Mathematics.dll (+2 others) [CacheHit 60e32108add3afa699c58615a8cc218d00000000000000000000000000000003]
+[ 728/1309 1785918462s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Mathematics.dll (+2 others)
+[ 724/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.dll (+2 others) [CacheHit e6b110e5519ec1bdccb8c79969f238dd00000000000000000000000000000003]
+[ 724/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.Callbacks.dll (+2 others) [CacheHit c648453c4a9ba28a800c231c753eecf400000000000000000000000000000003]
+[ 735/1309 1785918462s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.dll (+2 others)
+[ 737/1309 1785918462s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.Callbacks.dll (+2 others)
+[ 728/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.Reflection.dll (+2 others) [CacheHit 54ace7c3ae0f0138c82e7515af2fb4d000000000000000000000000000000003]
+[ 741/1309 1785918463s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.Reflection.dll (+2 others)
+[ 729/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/AssistantCoreSDKEditor.dll (+2 others) [CacheHit 0de3fd014bf428b7d9a1f050bbe232a600000000000000000000000000000003]
+[ 743/1309 1785918463s] Csc Library/Bee/artifacts/1900b0aE.dag/AssistantCoreSDKEditor.dll (+2 others)
+[ 731/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.EditorCoroutine.dll (+2 others) [CacheHit 95f5e93350558aa86dc9d820c61d489d00000000000000000000000000000003]
+[ 746/1309 1785918463s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.EditorCoroutine.dll (+2 others)
+[ 741/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.XR.Management.Editor.dll (+2 others) [CacheHit 28bf5344ea522d54ed4898020ba9bd0d00000000000000000000000000000003]
+[ 757/1309 1785918463s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.XR.Management.Editor.dll (+2 others)
+[ 747/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.Voice.NLayer.dll (+2 others) [CacheHit 88e48eca0e31740f2e5fbab4da19872700000000000000000000000000000003]
+[ 764/1309 1785918463s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.Voice.NLayer.dll (+2 others)
+[ 753/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.XR.CoreUtils.dll (+2 others) [CacheHit 572df04697d9fa1eadc78e2d6858732700000000000000000000000000000003]
+[ 772/1309 1785918463s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.XR.CoreUtils.dll (+2 others)
+[ 757/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/VoiceSDK.Telemetry.Runtime.dll (+2 others) [CacheHit 820740c0e7ca1e22450a392c07908ac800000000000000000000000000000003]
+[ 776/1309 1785918463s] Csc Library/Bee/artifacts/1900b0aE.dag/VoiceSDK.Telemetry.Runtime.dll (+2 others)
+[ 758/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.Net.endel.nativewebsocket.dll (+2 others) [CacheHit 8623b9dbd61c539073eb93878a25efd700000000000000000000000000000003]
+[ 778/1309 1785918463s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.Net.endel.nativewebsocket.dll (+2 others)
+[ 760/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.Voice.Opus.dll (+2 others) [CacheHit c1b7db0a59e701e797aa40cbd3fc1e0300000000000000000000000000000003]
+[ 781/1309 1785918463s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.Voice.Opus.dll (+2 others)
+[ 761/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.dll (+2 others) [CacheHit 45ea6fd7c20e382384e41117d583309600000000000000000000000000000003]
+[ 783/1309 1785918463s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.dll (+2 others)
+[ 767/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.XR.ImmersiveDebugger.Interface.dll (+2 others) [CacheHit 107f258a4bba893a469a16289679eb9800000000000000000000000000000003]
+[ 790/1309 1785918463s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.XR.ImmersiveDebugger.Interface.dll (+2 others)
+[ 768/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/VoiceSDK.Telemetry.dll (+2 others) [CacheHit 31bab1a0dd6ab39d85cf6c9b3801e5c200000000000000000000000000000003]
+[ 792/1309 1785918463s] Csc Library/Bee/artifacts/1900b0aE.dag/VoiceSDK.Telemetry.dll (+2 others)
+[ 769/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.Editor.dll (+2 others) [CacheHit 9fb24961b3d7a1c8357d6bed7fdf86a400000000000000000000000000000003]
+[ 794/1309 1785918463s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.Editor.dll (+2 others)
+[ 771/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.XR.Hands.dll (+2 others) [CacheHit a2a0f60eadc07d67fe08bc51d29c57e300000000000000000000000000000003]
+[ 797/1309 1785918463s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.XR.Hands.dll (+2 others)
+[ 774/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/AssistantVoiceCommandCommon.dll (+2 others) [CacheHit 34ba8dd31656392e4cfec5212e4bbde600000000000000000000000000000003]
+[ 801/1309 1785918463s] Csc Library/Bee/artifacts/1900b0aE.dag/AssistantVoiceCommandCommon.dll (+2 others)
+[ 787/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.XR.CoreUtils.Editor.dll (+2 others) [CacheHit 62e99e993a3f5ac818e9b537dca48fd200000000000000000000000000000003]
+[ 815/1309 1785918463s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.XR.CoreUtils.Editor.dll (+2 others)
+[ 793/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Internal.dll (+2 others) [CacheHit f8729354b6c09be68eabd3b4b7ea22b000000000000000000000000000000003]
+[ 822/1309 1785918463s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Internal.dll (+2 others)
+[ 796/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.WitAi.Lib.dll (+2 others) [CacheHit 77f5120a0105e31c620013bb4a2a280600000000000000000000000000000003]
+[ 796/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.dll (+2 others) [CacheHit 113d0baad610ce8923fccee6f1df8cbf00000000000000000000000000000003]
+[ 826/1309 1785918463s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.WitAi.Lib.dll (+2 others)
+[ 828/1309 1785918463s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.dll (+2 others)
+[ 800/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Oculus.Interaction.dll (+2 others) [CacheHit 6d88a9cfd41171b91e8b3e3552c82d9900000000000000000000000000000003]
+[ 832/1309 1785918463s] Csc Library/Bee/artifacts/1900b0aE.dag/Oculus.Interaction.dll (+2 others)
+[ 803/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.Voice.Hub.Runtime.dll (+2 others) [CacheHit 2738efab14ab918bfa4e78526617d9e400000000000000000000000000000003]
+[ 836/1309 1785918463s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.Voice.Hub.Runtime.dll (+2 others)
+[ 804/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Audio.dll (+2 others) [CacheHit 977ac107e8567534814d8e5822a43dec00000000000000000000000000000003]
+[ 804/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.Editor.ConversionSystem.dll (+2 others) [CacheHit 7ce011be20234bdb9b36ef1aa63d3d2200000000000000000000000000000003]
+[ 838/1309 1785918463s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Audio.dll (+2 others)
+[ 840/1309 1785918463s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.Editor.ConversionSystem.dll (+2 others)
+[ 809/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Oculus.VR.dll (+2 others) [CacheHit ac18d0065adc788ed624181146324f2a00000000000000000000000000000003]
+[ 845/1309 1785918463s] Csc Library/Bee/artifacts/1900b0aE.dag/Oculus.VR.dll (+2 others)
+[ 810/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.VoiceSDK.Mic.Common.dll (+2 others) [CacheHit ce057218d59a5dcb1a20cea872a8c19600000000000000000000000000000003]
+[ 847/1309 1785918463s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.VoiceSDK.Mic.Common.dll (+2 others)
+[ 811/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Environments.dll (+2 others) [CacheHit bd1779c55f68ebf2aa3e6f4d817611df00000000000000000000000000000003]
+[ 849/1309 1785918463s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Environments.dll (+2 others)
+[ 812/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Configuration.dll (+2 others) [CacheHit 86935337b630012969663c1b2915335400000000000000000000000000000003]
+[ 851/1309 1785918463s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Configuration.dll (+2 others)
+[ 813/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Threading.dll (+2 others) [CacheHit 62713a6c0fdd58100b8a0735d2139abe00000000000000000000000000000003]
+[ 853/1309 1785918463s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Threading.dll (+2 others)
+[ 814/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Scheduler.dll (+2 others) [CacheHit 86dd4e7d336b6c2f48a7e521e400a86000000000000000000000000000000003]
+[ 855/1309 1785918463s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Scheduler.dll (+2 others)
+[ 815/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Environments.Internal.dll (+2 others) [CacheHit 8a3ed2e9560f1ec2e8372aa7f8deb96600000000000000000000000000000003]
+[ 857/1309 1785918463s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Environments.Internal.dll (+2 others)
+[ 816/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.Settings.dll (+2 others) [CacheHit 6b1ab170ffa6c53b9e8ceb0929c20e0500000000000000000000000000000003]
+[ 859/1309 1785918463s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.Settings.dll (+2 others)
+[ 817/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Telemetry.dll (+2 others) [CacheHit 350a3c3a7ddb775c4127338875429e1600000000000000000000000000000003]
+[ 861/1309 1785918463s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Telemetry.dll (+2 others)
+[ 819/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.VoiceSDK.Mic.WebGL.dll (+2 others) [CacheHit 918a744d01d2e69e8f6936515aa6d34300000000000000000000000000000003]
+[ 864/1309 1785918463s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.VoiceSDK.Mic.WebGL.dll (+2 others)
+[ 826/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Oculus.Platform.dll (+2 others) [CacheHit 03425130e87dbff03d4bf20b5734b34700000000000000000000000000000003]
+[ 872/1309 1785918463s] Csc Library/Bee/artifacts/1900b0aE.dag/Oculus.Platform.dll (+2 others)
+[ 828/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.XR.BuildingBlocks.dll (+2 others) [CacheHit f9523ebce7e99834e1c84af4d92c124800000000000000000000000000000003]
+[ 875/1309 1785918463s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.XR.BuildingBlocks.dll (+2 others)
+[ 830/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.VoiceSDK.Mic.Other.dll (+2 others) [CacheHit fa4ca25267fee4e859e1f27961c9f62900000000000000000000000000000003]
+[ 878/1309 1785918463s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.VoiceSDK.Mic.Other.dll (+2 others)
+[ 831/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.XR.EnvironmentDepth.dll (+2 others) [CacheHit 25b3866586c0a6e5c055799a1820c51500000000000000000000000000000003]
+[ 880/1309 1785918463s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.XR.EnvironmentDepth.dll (+2 others)
+[ 836/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.XR.ImmersiveDebugger.dll (+2 others) [CacheHit f410e41ac42cfd6a6ad6b7b40d7b515f00000000000000000000000000000003]
+[ 886/1309 1785918463s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.XR.ImmersiveDebugger.dll (+2 others)
+[ 838/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.RemoteContent.dll (+2 others) [CacheHit 3f6e2a2f777a687a1feb054add147b7500000000000000000000000000000003]
+[ 889/1309 1785918463s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.RemoteContent.dll (+2 others)
+[ 839/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Device.dll (+2 others) [CacheHit 785cba1c41e379fe0e7b52cab99e50b100000000000000000000000000000003]
+[ 891/1309 1785918463s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Device.dll (+2 others)
+[ 842/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Oculus.Haptics.dll (+2 others) [CacheHit 9b88820c995a4caee28e79807267899300000000000000000000000000000003]
+[ 895/1309 1785918463s] Csc Library/Bee/artifacts/1900b0aE.dag/Oculus.Haptics.dll (+2 others)
+[ 846/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Networking.dll (+2 others) [CacheHit 84c51927b5fcbc705e7fe06b809927b600000000000000000000000000000003]
+[ 900/1309 1785918463s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Networking.dll (+2 others)
+[ 849/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.WitAi.dll (+2 others) [CacheHit f398e987780ed7c94ef5e72bba521ca600000000000000000000000000000003]
+[ 904/1309 1785918463s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.WitAi.dll (+2 others)
+[ 850/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Configuration.Editor.dll (+2 others) [CacheHit 68e44ed49d334209d39d7bcd68de97e700000000000000000000000000000003]
+[ 906/1309 1785918463s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Configuration.Editor.dll (+2 others)
+[ 851/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Oculus.Interaction.Editor.dll (+2 others) [CacheHit 9f6cbf415880802186914d0c5a1e1c0a00000000000000000000000000000003]
+[ 908/1309 1785918463s] Csc Library/Bee/artifacts/1900b0aE.dag/Oculus.Interaction.Editor.dll (+2 others)
+[ 852/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Oculus.Interaction.OVR.dll (+2 others) [CacheHit cf62063a8ea208521d3b47ef7942fcfc00000000000000000000000000000003]
+[ 910/1309 1785918463s] Csc Library/Bee/artifacts/1900b0aE.dag/Oculus.Interaction.OVR.dll (+2 others)
+[ 854/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Registration.dll (+2 others) [CacheHit a2ee4d3dd09e08cb68dca5fc4906b19800000000000000000000000000000003]
+[ 913/1309 1785918463s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Registration.dll (+2 others)
+[ 857/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.UserInterface.dll (+2 others) [CacheHit 6a2ab2b6745338074427c4b71515d9b200000000000000000000000000000003]
+[ 917/1309 1785918463s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.UserInterface.dll (+2 others)
+[ 858/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.XR.Hands.Analytics.Editor.dll (+2 others) [CacheHit 156e3166b734b162267751ce321cd0ca00000000000000000000000000000003]
+[ 919/1309 1785918463s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.XR.Hands.Analytics.Editor.dll (+2 others)
+[ 859/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Analytics.dll (+2 others) [CacheHit fa0ec76e0545acb21a0028e15391b71000000000000000000000000000000003]
+[ 921/1309 1785918463s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Analytics.dll (+2 others)
+[ 860/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.WitAI.Lib.Editor.dll (+2 others) [CacheHit c2cfd9074386b343326ec722d69a8d1b00000000000000000000000000000003]
+[ 923/1309 1785918463s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.WitAI.Lib.Editor.dll (+2 others)
+[ 861/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.Wit.Dictation.dll (+2 others) [CacheHit 40beed27ffbdd0aa8b8b8a5d800ca05300000000000000000000000000000003]
+[ 925/1309 1785918463s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.Wit.Dictation.dll (+2 others)
+[ 878/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.WitAi.TTS.dll (+2 others) [CacheHit ab4a9b78a38fb4170c8df0555f67399200000000000000000000000000000003]
+[ 943/1309 1785918463s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.WitAi.TTS.dll (+2 others)
+[ 879/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.Tags.dll (+2 others) [CacheHit c6022e3bd7d7212c554493c2808b425c00000000000000000000000000000003]
+[ 879/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.Editor.dll (+2 others) [CacheHit a892d1bfddb0fd9af6a08e109f7c76a600000000000000000000000000000003]
+[ 945/1309 1785918463s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.Tags.dll (+2 others)
+[ 947/1309 1785918463s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.Editor.dll (+2 others)
+[ 882/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Editor.dll (+2 others) [CacheHit 491070661554f8e357f60b03d70ea5c200000000000000000000000000000003]
+[ 950/1309 1785918463s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Editor.dll (+2 others)
+[ 897/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/UnityEngine.XR.LegacyInputHelpers.dll (+2 others) [CacheHit e62b6bf63015bbfddcbc1ff6591694a500000000000000000000000000000003]
+[ 966/1309 1785918464s] Csc Library/Bee/artifacts/1900b0aE.dag/UnityEngine.XR.LegacyInputHelpers.dll (+2 others)
+[ 899/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.dll (+2 others) [CacheHit f1bf524dd702fcc5d6f613f1ff33442000000000000000000000000000000003]
+[ 969/1309 1785918464s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.dll (+2 others)
+[ 905/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.WitAi.Editor.dll (+2 others) [CacheHit 3e7f69f3c95fc9e8be16f1dce2a72ce700000000000000000000000000000003]
+[ 976/1309 1785918464s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.WitAi.Editor.dll (+2 others)
+[ 906/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/VoiceSDK.Runtime.dll (+2 others) [CacheHit dbc0df77b4fd15a5f19ab1c7178676aa00000000000000000000000000000003]
+[ 978/1309 1785918464s] Csc Library/Bee/artifacts/1900b0aE.dag/VoiceSDK.Runtime.dll (+2 others)
+[ 907/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.PlasticSCM.Editor.dll (+2 others) [CacheHit e2d882e9792656b5ef135e118fb5c56500000000000000000000000000000003]
+[ 980/1309 1785918464s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.PlasticSCM.Editor.dll (+2 others)
+[ 908/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.Wit.Composer.dll (+2 others) [CacheHit dc9eaa693265c3839d6b5b803069364200000000000000000000000000000003]
+[ 982/1309 1785918464s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.Wit.Composer.dll (+2 others)
+[ 909/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Oculus.Interaction.Samples.dll (+2 others) [CacheHit a2f19adcdf2006d30be716ef3c644eba00000000000000000000000000000003]
+[ 984/1309 1785918464s] Csc Library/Bee/artifacts/1900b0aE.dag/Oculus.Interaction.Samples.dll (+2 others)
+[ 910/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.ToolingSupport.dll (+2 others) [CacheHit e77dd6e426cf6d8ef99014d93315464c00000000000000000000000000000003]
+[ 986/1309 1785918464s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.ToolingSupport.dll (+2 others)
+[ 911/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.Editor.dll (+2 others) [CacheHit 292c978d9857910539fde7fab96df52800000000000000000000000000000003]
+[ 988/1309 1785918464s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.Editor.dll (+2 others)
+[ 912/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.Voice.Hub.Editor.dll (+2 others) [CacheHit 07c915aa2c290f957160105db3842bb600000000000000000000000000000003]
+[ 990/1309 1785918464s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.Voice.Hub.Editor.dll (+2 others)
+[ 913/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.WitAi.TTS.Editor.dll (+2 others) [CacheHit 868a3ade1999d488bec59b8957532ac300000000000000000000000000000003]
+[ 992/1309 1785918464s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.WitAi.TTS.Editor.dll (+2 others)
+[ 914/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/UnityEditor.XR.LegacyInputHelpers.dll (+2 others) [CacheHit e82dcadffec7a5ed7a8e75fd083f0cf300000000000000000000000000000003]
+[ 994/1309 1785918464s] Csc Library/Bee/artifacts/1900b0aE.dag/UnityEditor.XR.LegacyInputHelpers.dll (+2 others)
+[ 915/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/VoiceSDK.Dictation.Runtime.dll (+2 others) [CacheHit 22787dec29b36ed077f9563835fb23d800000000000000000000000000000003]
+[ 996/1309 1785918464s] Csc Library/Bee/artifacts/1900b0aE.dag/VoiceSDK.Dictation.Runtime.dll (+2 others)
+[ 916/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Analytics.DataPrivacy.dll (+2 others) [CacheHit 7e056c5a6cf88df256dff1a6541e77d100000000000000000000000000000003]
+[ 998/1309 1785918464s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Analytics.DataPrivacy.dll (+2 others)
+[ 917/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.XR.Hands.Analytics.Hooks.Editor.dll (+2 others) [CacheHit 3e39a43db4e9db3241eaade6b83710c400000000000000000000000000000003]
+[1000/1309 1785918464s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.XR.Hands.Analytics.Hooks.Editor.dll (+2 others)
+[ 918/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.Notifications.dll (+2 others) [CacheHit b2ae3da2fda65926a772b60e006cc33c00000000000000000000000000000003]
+[1002/1309 1785918464s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.Notifications.dll (+2 others)
+[ 919/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.StatusMenu.dll (+2 others) [CacheHit 795ea6769aa404e48ef499a746564d8100000000000000000000000000000003]
+[1004/1309 1785918464s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.StatusMenu.dll (+2 others)
+[ 920/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.Voice.VSDKHub.Editor.dll (+2 others) [CacheHit 9c7f53ee558eed65a41d4c16c19d15ed00000000000000000000000000000003]
+[1006/1309 1785918464s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.Voice.VSDKHub.Editor.dll (+2 others)
+[ 921/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Advertisements.dll (+2 others) [CacheHit 49df7dc5ef4fb49ecc324c4f1b601d2500000000000000000000000000000003]
+[1008/1309 1785918464s] Csc Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Advertisements.dll (+2 others)
+[ 922/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.VisualStudio.Editor.dll (+2 others) [CacheHit 58626418cfd9d23a5eaa9c0dbeb06d6800000000000000000000000000000003]
+[1010/1309 1785918464s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.VisualStudio.Editor.dll (+2 others)
+[ 923/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Rider.Editor.dll (+2 others) [CacheHit 7a629ef0d092d03d28f52eb7ba9d278d00000000000000000000000000000003]
+[ 923/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/VoiceSDK.Dictation.Editor.dll (+2 others) [CacheHit c73ff50a76e2197005ba98e58aa44d0000000000000000000000000000000003]
+[1012/1309 1785918464s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Rider.Editor.dll (+2 others)
+[1014/1309 1785918464s] Csc Library/Bee/artifacts/1900b0aE.dag/VoiceSDK.Dictation.Editor.dll (+2 others)
+[ 925/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.dll (+2 others) [CacheHit cce5bb6ea2d9bb8d131c13042f545c2200000000000000000000000000000003]
+[1016/1309 1785918464s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.dll (+2 others)
+[ 926/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Guides.Editor.dll (+2 others) [CacheHit 4972b202383d672e2d4ecdd2c6fee73400000000000000000000000000000003]
+[1018/1309 1785918464s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Guides.Editor.dll (+2 others)
+[ 927/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/VoiceSDK.Editor.dll (+2 others) [CacheHit 189b27c66cc67b625911edab0fbd068a00000000000000000000000000000003]
+[1020/1309 1785918464s] Csc Library/Bee/artifacts/1900b0aE.dag/VoiceSDK.Editor.dll (+2 others)
+[ 928/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.Updater.dll (+2 others) [CacheHit 04f5ea062eedb4ffc63be0f0bc740bbc00000000000000000000000000000003]
+[1022/1309 1785918464s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.Updater.dll (+2 others)
+[ 929/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/UnityEditor.SpatialTracking.dll (+2 others) [CacheHit d42c5e8939e8352eed350b86ed4297fb00000000000000000000000000000003]
+[1024/1309 1785918464s] Csc Library/Bee/artifacts/1900b0aE.dag/UnityEditor.SpatialTracking.dll (+2 others)
+[ 930/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Advertisements.Editor.dll (+2 others) [CacheHit 1b0f7ed3a5a0f767b3a5733f7cb74a4b00000000000000000000000000000003]
+[1026/1309 1785918464s] Csc Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Advertisements.Editor.dll (+2 others)
+[ 931/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.2D.Sprite.Editor.dll (+2 others) [CacheHit c4a62029f225d33a788861fb89000d3e00000000000000000000000000000003]
+[1028/1309 1785918464s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.2D.Sprite.Editor.dll (+2 others)
+[ 932/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.XR.Hands.Editor.dll (+2 others) [CacheHit eba202e6c6aaefd2f0d9767d1f5e7f4000000000000000000000000000000003]
+[1030/1309 1785918464s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.XR.Hands.Editor.dll (+2 others)
+[ 933/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.ForUI.dll (+2 others) [CacheHit 1bfd316ae1f8d9ce83f4a2f77e485da600000000000000000000000000000003]
+[1032/1309 1785918464s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.ForUI.dll (+2 others)
+[ 970/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Oculus.VR.Editor.dll (+2 others) [CacheHit 64658e3101971f6d91b1276d75168c7d00000000000000000000000000000003]
+[1070/1309 1785918464s] Csc Library/Bee/artifacts/1900b0aE.dag/Oculus.VR.Editor.dll (+2 others)
+[ 971/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.2D.Tilemap.Editor.dll (+2 others) [CacheHit c5326f77dd8ca5f10d25358085cfb7af00000000000000000000000000000003]
+[1072/1309 1785918464s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.2D.Tilemap.Editor.dll (+2 others)
+[ 972/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Mathematics.Editor.dll (+2 others) [CacheHit 54b6de9142cd5d4eb665afaccc8b574e00000000000000000000000000000003]
+[1074/1309 1785918464s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Mathematics.Editor.dll (+2 others)
+[ 973/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Analytics.Editor.dll (+2 others) [CacheHit 75a9ca3a61a1f4c4f78fe48e0daed3d300000000000000000000000000000003]
+[1076/1309 1785918464s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Analytics.Editor.dll (+2 others)
+[ 974/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Analytics.dll (+2 others) [CacheHit 1539f9b6a011e375d89527d8e9f6c45c00000000000000000000000000000003]
+[1078/1309 1785918464s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Analytics.dll (+2 others)
+[ 975/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/VoiceSDK.Runtime.Composer.dll (+2 others) [CacheHit 39b5716b1411d4dba3f7cb7c0d2917f000000000000000000000000000000003]
+[1080/1309 1785918464s] Csc Library/Bee/artifacts/1900b0aE.dag/VoiceSDK.Runtime.Composer.dll (+2 others)
+[ 976/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.Wit.Dictation.Editor.dll (+2 others) [CacheHit 06297d49c518ab9f057f0afb0e7aa86e00000000000000000000000000000003]
+[1082/1309 1785918464s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.Wit.Dictation.Editor.dll (+2 others)
+[ 981/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.XR.BuildingBlocks.DepthAPI.dll (+2 others) [CacheHit 7953063cb201e898031f1d1f711e7e4100000000000000000000000000000003]
+[1088/1309 1785918464s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.XR.BuildingBlocks.DepthAPI.dll (+2 others)
+[ 982/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/meta.xr.mrutilitykit.dll (+2 others) [CacheHit 3450b233a60360fb0b5fbc74c8cb7b6100000000000000000000000000000003]
+[1090/1309 1785918464s] Csc Library/Bee/artifacts/1900b0aE.dag/meta.xr.mrutilitykit.dll (+2 others)
+[ 983/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Oculus.VR.Scripts.Editor.dll (+2 others) [CacheHit 0fcc6acfbe59616fef344b5cb600347000000000000000000000000000000003]
+[1092/1309 1785918464s] Csc Library/Bee/artifacts/1900b0aE.dag/Oculus.VR.Scripts.Editor.dll (+2 others)
+[ 984/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.UPST.Notifications.dll (+2 others) [CacheHit 21d15d1141400b5b6dc76f789e06946a00000000000000000000000000000003]
+[1094/1309 1785918464s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.UPST.Notifications.dll (+2 others)
+[ 985/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.PlayCompanion.dll (+2 others) [CacheHit 85c57fc31be9de91ab6ae80717200cfd00000000000000000000000000000003]
+[1096/1309 1785918464s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.PlayCompanion.dll (+2 others)
+[ 986/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.XR.ImmersiveDebugger.Editor.dll (+2 others) [CacheHit cf512249721cf563e430a265e5c2de6c00000000000000000000000000000003]
+[1098/1309 1785918464s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.XR.ImmersiveDebugger.Editor.dll (+2 others)
+[ 987/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.ToolingSupport.RuntimeOptimizer.dll (+2 others) [CacheHit 26972a410ad7e8dfd0b060e7d562f80a00000000000000000000000000000003]
+[1100/1309 1785918464s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.ToolingSupport.RuntimeOptimizer.dll (+2 others)
+[ 988/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.XR.EnvironmentDepth.Editor.dll (+2 others) [CacheHit 833d128457f0f2c4c3ce278aba48353300000000000000000000000000000003]
+[1102/1309 1785918464s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.XR.EnvironmentDepth.Editor.dll (+2 others)
+[ 989/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Oculus.Platform.Editor.dll (+2 others) [CacheHit df920a8276f7b8f87ea7bc093e7bdacb00000000000000000000000000000003]
+[1104/1309 1785918464s] Csc Library/Bee/artifacts/1900b0aE.dag/Oculus.Platform.Editor.dll (+2 others)
+[ 990/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.XR.BuildingBlocks.AIBlocks.dll (+2 others) [CacheHit 9012e3ca24aca8544c3774b1bf18282800000000000000000000000000000003]
+[1106/1309 1785918464s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.XR.BuildingBlocks.AIBlocks.dll (+2 others)
+[ 991/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.XR.MultiplayerBlocks.Shared.dll (+2 others) [CacheHit 9498aa50295c0beea214cfde264f72c800000000000000000000000000000003]
+[1108/1309 1785918464s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.XR.MultiplayerBlocks.Shared.dll (+2 others)
+[ 992/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.XR.BuildingBlocks.Editor.dll (+2 others) [CacheHit f01cb1a070829e70922c6838aa5f020e00000000000000000000000000000003]
+[1110/1309 1785918464s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.XR.BuildingBlocks.Editor.dll (+2 others)
+[ 993/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Analytics.dll (+2 others) [CacheHit b951fa5fde21913a9e7e1ac111e3d44e00000000000000000000000000000003]
+[1112/1309 1785918464s] Csc Library/Bee/artifacts/1900b0aE.dag/Analytics.dll (+2 others)
+[ 994/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/MetaXRSimulatorCore.Editor.dll (+2 others) [CacheHit 6c30275ea40cc3ed01479479e57bbe2700000000000000000000000000000003]
+[1114/1309 1785918464s] Csc Library/Bee/artifacts/1900b0aE.dag/MetaXRSimulatorCore.Editor.dll (+2 others)
+[ 995/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/AssistantVoiceCommandCommon.Editor.dll (+2 others) [CacheHit a50c519028494cc1c5e842c017c6fd0800000000000000000000000000000003]
+[1116/1309 1785918464s] Csc Library/Bee/artifacts/1900b0aE.dag/AssistantVoiceCommandCommon.Editor.dll (+2 others)
+[ 996/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Oculus.Interaction.InterfaceSupport.dll (+2 others) [CacheHit 016f807584791edcab8baafd3406decf00000000000000000000000000000003]
+[1118/1309 1785918464s] Csc Library/Bee/artifacts/1900b0aE.dag/Oculus.Interaction.InterfaceSupport.dll (+2 others)
+[ 997/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.Wit.Composer.Editor.dll (+2 others) [CacheHit f3e005b3aa0e9098350a8ecadff0f62400000000000000000000000000000003]
+[ 997/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Oculus.Interaction.Samples.Editor.dll (+2 others) [CacheHit 546671562b84fc805960d8e892cc0d0300000000000000000000000000000003]
+[1120/1309 1785918464s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.Wit.Composer.Editor.dll (+2 others)
+[1122/1309 1785918464s] Csc Library/Bee/artifacts/1900b0aE.dag/Oculus.Interaction.Samples.Editor.dll (+2 others)
+[ 999/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Oculus.Interaction.OVR.Samples.dll (+2 others) [CacheHit f58c8071c3084cea48ea503af88d943400000000000000000000000000000003]
+[1124/1309 1785918464s] Csc Library/Bee/artifacts/1900b0aE.dag/Oculus.Interaction.OVR.Samples.dll (+2 others)
+[1000/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Oculus.Interaction.OVR.Editor.dll (+2 others) [CacheHit 4174ee5b11fa2c7a0adc773212d79b0900000000000000000000000000000003]
+[1126/1309 1785918464s] Csc Library/Bee/artifacts/1900b0aE.dag/Oculus.Interaction.OVR.Editor.dll (+2 others)
+[1001/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Oculus.Haptics.Editor.dll (+2 others) [CacheHit 122e129cacbab66afb65d0ff33b1d90000000000000000000000000000000003]
+[1128/1309 1785918465s] Csc Library/Bee/artifacts/1900b0aE.dag/Oculus.Haptics.Editor.dll (+2 others)
+[1002/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.BuildingBlocks.AIBlocks.dll (+2 others) [CacheHit 583550b0ab31e139ece63adee923c31d00000000000000000000000000000003]
+[1130/1309 1785918465s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.BuildingBlocks.AIBlocks.dll (+2 others)
+[1003/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.XR.BuildingBlocks.DepthAPI.Editor.dll (+2 others) [CacheHit 7c4b5ad7918d0f24754ccc4d8fabb05f00000000000000000000000000000003]
+[1132/1309 1785918465s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.XR.BuildingBlocks.DepthAPI.Editor.dll (+2 others)
+[1004/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.Guide.About.dll (+2 others) [CacheHit 4b79dce0fea18cfdb4f55fce7c67d79600000000000000000000000000000003]
+[1004/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Audio.Editor.dll (+2 others) [CacheHit b80915ccfa084c9e2f3dc614b3bbc4ed00000000000000000000000000000003]
+[1134/1309 1785918465s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.Guide.About.dll (+2 others)
+[1136/1309 1785918465s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Audio.Editor.dll (+2 others)
+[1012/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Oculus.Interaction.Samples.Editor.UISet.dll (+2 others) [CacheHit 1119d9e91c0b3ce42a0537662e1d2a7900000000000000000000000000000003]
+[1144/1309 1785918465s] Csc Library/Bee/artifacts/1900b0aE.dag/Oculus.Interaction.Samples.Editor.UISet.dll (+2 others)
+[1013/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.XR.MetaWand.Editor.dll (+2 others) [CacheHit 7b911954bfff2a6e4d74478d078bbac000000000000000000000000000000003]
+[1146/1309 1785918465s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.XR.MetaWand.Editor.dll (+2 others)
+[1014/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.XR.MultiplayerBlocks.Shared.Editor.dll (+2 others) [CacheHit f22719a96f4a244037437d0cd43c605700000000000000000000000000000003]
+[1148/1309 1785918465s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.XR.MultiplayerBlocks.Shared.Editor.dll (+2 others)
+[1015/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.TelemetryUI.dll (+2 others) [CacheHit 279173b5c195ac963258e99d7ee8e45700000000000000000000000000000003]
+[1150/1309 1785918465s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.TelemetryUI.dll (+2 others)
+[1016/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/VoiceSDK.Editor.Composer.dll (+2 others) [CacheHit 609785a09c2981f300533bda199bbce000000000000000000000000000000003]
+[1152/1309 1785918465s] Csc Library/Bee/artifacts/1900b0aE.dag/VoiceSDK.Editor.Composer.dll (+2 others)
+[1017/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Environments.Editor.dll (+2 others) [CacheHit 0863208cee774443dbdee45c8fb8469400000000000000000000000000000003]
+[1154/1309 1785918465s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Environments.Editor.dll (+2 others)
+[1018/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/meta.xr.mrutilitykit.editor.dll (+2 others) [CacheHit 206673f6e23dafd659b63a75de1d3ce700000000000000000000000000000003]
+[1156/1309 1785918465s] Csc Library/Bee/artifacts/1900b0aE.dag/meta.xr.mrutilitykit.editor.dll (+2 others)
+[1158/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.XR.BuildingBlocks.DepthAPI.dll
+[1159/1309  0s] CopyFiles Library/ScriptAssemblies/UnityEngine.Advertisements.dll
+[1160/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.XR.ImmersiveDebugger.Interface.dll
+[1161/1309  0s] CopyFiles Library/ScriptAssemblies/Oculus.VR.dll
+[1162/1309  0s] CopyFiles Library/ScriptAssemblies/AssistantVoiceCommandCommon.dll
+[1163/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.Wit.Dictation.dll
+[1164/1309  0s] CopyFiles Library/ScriptAssemblies/Unity.Services.Core.dll
+[1165/1309  0s] CopyFiles Library/ScriptAssemblies/Oculus.Haptics.dll
+[1166/1309  0s] CopyFiles Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll
+[1167/1309  0s] CopyFiles Library/ScriptAssemblies/Oculus.Interaction.Samples.dll
+[1168/1309  0s] CopyFiles Library/ScriptAssemblies/Unity.Services.Core.Environments.Internal.dll
+[1169/1309  0s] CopyFiles Library/ScriptAssemblies/Unity.Services.Core.Device.dll
+[1170/1309  0s] CopyFiles Library/ScriptAssemblies/VoiceSDK.Telemetry.Runtime.dll
+[1171/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.Voice.Hub.Runtime.dll
+[1172/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.VoiceSDK.Mic.Common.dll
+[1173/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.XR.MultiplayerBlocks.Shared.dll
+[1174/1309  0s] CopyFiles Library/ScriptAssemblies/Unity.Services.Core.Analytics.dll
+[1175/1309  0s] CopyFiles Library/ScriptAssemblies/Unity.XR.Hands.dll
+[1176/1309  0s] CopyFiles Library/ScriptAssemblies/Unity.Mathematics.dll
+[1177/1309  0s] CopyFiles Library/ScriptAssemblies/Unity.Services.Core.Registration.dll
+[1178/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.XR.EnvironmentDepth.dll
+[1179/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.Voice.NLayer.dll
+[1180/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.Voice.Opus.dll
+[1181/1309  0s] CopyFiles Library/ScriptAssemblies/Unity.Services.Analytics.dll
+[1182/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.XR.BuildingBlocks.AIBlocks.dll
+[1183/1309  0s] CopyFiles Library/ScriptAssemblies/Oculus.Interaction.OVR.Samples.dll
+[1184/1309  0s] CopyFiles Library/ScriptAssemblies/Oculus.Interaction.dll
+[1185/1309  0s] CopyFiles Library/ScriptAssemblies/Unity.Services.Core.Networking.dll
+[1186/1309  0s] CopyFiles Library/ScriptAssemblies/Unity.Services.Core.Threading.dll
+[1187/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.XR.ImmersiveDebugger.dll
+[1188/1309  0s] CopyFiles Library/ScriptAssemblies/meta.xr.mrutilitykit.dll
+[1189/1309  0s] CopyFiles Library/ScriptAssemblies/Unity.Services.Core.Configuration.dll
+[1190/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.Net.endel.nativewebsocket.dll
+[1191/1309  0s] CopyFiles Library/ScriptAssemblies/Unity.TextMeshPro.dll
+[1053/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.CollabProxy.Editor.dll (+2 others) [CacheHit d89d842895cd1a78561e071cb6416e4c00000000000000000000000000000003]
+[1192/1309 1785918465s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.CollabProxy.Editor.dll (+2 others)
+[1194/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.VoiceSDK.Mic.WebGL.dll
+[1195/1309  0s] CopyFiles Library/ScriptAssemblies/VoiceSDK.Dictation.Runtime.dll
+[1196/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.WitAi.Lib.dll
+[1197/1309  0s] CopyFiles Library/ScriptAssemblies/Unity.Services.Core.Scheduler.dll
+[1198/1309  0s] CopyFiles Library/ScriptAssemblies/Unity.AI.Navigation.dll
+[1199/1309  0s] CopyFiles Library/ScriptAssemblies/Unity.Services.Core.Telemetry.dll
+[1200/1309  0s] CopyFiles Library/ScriptAssemblies/VoiceSDK.Runtime.dll
+[1201/1309  0s] CopyFiles Library/ScriptAssemblies/AssistantCoreSDKRuntime.dll
+[1202/1309  0s] CopyFiles Library/ScriptAssemblies/Unity.Services.Core.Environments.dll
+[1203/1309  0s] CopyFiles Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll
+[1204/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.XR.BuildingBlocks.dll
+[1205/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.Wit.Composer.dll
+[1206/1309  0s] CopyFiles Library/ScriptAssemblies/VoiceSDK.Runtime.Composer.dll
+[1067/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Advertisements.DevX.Editor.dll (+2 others) [CacheHit 58be1630803a23b90ae8f2169420f1fe00000000000000000000000000000003]
+[1207/1309 1785918465s] Csc Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Advertisements.DevX.Editor.dll (+2 others)
+[1209/1309  0s] CopyFiles Library/ScriptAssemblies/Oculus.Platform.dll
+[1210/1309  0s] CopyFiles Library/ScriptAssemblies/Unity.InputSystem.ForUI.dll
+[1211/1309  0s] CopyFiles Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
+[1212/1309  0s] CopyFiles Library/ScriptAssemblies/Unity.InputSystem.dll
+[1213/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.WitAi.dll
+[1214/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.XR.Audio.dll
+[1215/1309  0s] CopyFiles Library/ScriptAssemblies/Unity.Services.Core.Internal.dll
+[1216/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.WitAi.TTS.dll
+[1217/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.VoiceSDK.Mic.Other.dll
+[1218/1309  0s] CopyFiles Library/ScriptAssemblies/Oculus.Interaction.OVR.dll
+[1078/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.TestFramework.dll (+2 others) [CacheHit ba2510f8d38e932c881cfc20ab1de02100000000000000000000000000000003]
+[1219/1309 1785918465s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.TestFramework.dll (+2 others)
+[1221/1309  0s] CopyFiles Library/ScriptAssemblies/Unity.Timeline.dll
+[1222/1309  0s] CopyFiles Library/ScriptAssemblies/Unity.XR.Management.dll
+[1223/1309  0s] CopyFiles Library/ScriptAssemblies/Unity.XR.CoreUtils.dll
+[1224/1309  0s] CopyFiles Library/ScriptAssemblies/UnityEngine.Advertisements.DevX.Editor.pdb
+[1225/1309  0s] CopyFiles Library/ScriptAssemblies/Unity.InputSystem.TestFramework.dll
+[1226/1309  0s] CopyFiles Library/ScriptAssemblies/UnityEngine.Advertisements.DevX.Editor.dll
+[1227/1309  0s] CopyFiles Library/ScriptAssemblies/Unity.InputSystem.TestFramework.pdb
+[1228/1309  0s] CopyFiles Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+[1229/1309  0s] CopyFiles Library/ScriptAssemblies/Unity.CollabProxy.Editor.pdb
+[1230/1309  0s] CopyFiles Library/ScriptAssemblies/meta.xr.mrutilitykit.editor.dll
+[1231/1309  0s] CopyFiles Library/ScriptAssemblies/Unity.Services.Core.Environments.Editor.pdb
+[1232/1309  0s] CopyFiles Library/ScriptAssemblies/meta.xr.mrutilitykit.editor.pdb
+[1233/1309  0s] CopyFiles Library/ScriptAssemblies/VoiceSDK.Editor.Composer.pdb
+[1234/1309  0s] CopyFiles Library/ScriptAssemblies/VoiceSDK.Editor.Composer.dll
+[1235/1309  0s] CopyFiles Library/ScriptAssemblies/Unity.Services.Core.Environments.Editor.dll
+[1236/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.XR.Editor.TelemetryUI.pdb
+[1237/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.XR.Editor.TelemetryUI.dll
+[1238/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.XR.MultiplayerBlocks.Shared.Editor.dll
+[1239/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.XR.MultiplayerBlocks.Shared.Editor.pdb
+[1240/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.XR.MetaWand.Editor.dll
+[1241/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.XR.MetaWand.Editor.pdb
+[1242/1309  0s] CopyFiles Library/ScriptAssemblies/Oculus.Interaction.Samples.Editor.UISet.pdb
+[1243/1309  0s] CopyFiles Library/ScriptAssemblies/Oculus.Interaction.Samples.Editor.UISet.dll
+[1244/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.XR.Audio.Editor.dll
+[1245/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.XR.Editor.Guide.About.dll
+[1246/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.XR.Editor.Guide.About.pdb
+[1247/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.XR.Audio.Editor.pdb
+[1248/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.XR.BuildingBlocks.DepthAPI.Editor.dll
+[1249/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.XR.BuildingBlocks.DepthAPI.Editor.pdb
+[1250/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.XR.Editor.BuildingBlocks.AIBlocks.dll
+[1251/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.XR.Editor.BuildingBlocks.AIBlocks.pdb
+[1252/1309  0s] CopyFiles Library/ScriptAssemblies/Oculus.Haptics.Editor.dll
+[1253/1309  0s] CopyFiles Library/ScriptAssemblies/Oculus.Interaction.OVR.Editor.dll
+[1254/1309  0s] CopyFiles Library/ScriptAssemblies/Oculus.Haptics.Editor.pdb
+[1255/1309  0s] CopyFiles Library/ScriptAssemblies/Oculus.Interaction.OVR.Editor.pdb
+[1256/1309  0s] CopyFiles Library/ScriptAssemblies/Oculus.Interaction.Samples.Editor.pdb
+[1257/1309  0s] CopyFiles Library/ScriptAssemblies/Oculus.Interaction.OVR.Samples.pdb
+[1258/1309  0s] CopyFiles Library/ScriptAssemblies/Oculus.Interaction.Samples.Editor.dll
+[1259/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.Wit.Composer.Editor.dll
+[1260/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.Wit.Composer.Editor.pdb
+[1261/1309  0s] CopyFiles Library/ScriptAssemblies/Oculus.Interaction.InterfaceSupport.dll
+[1262/1309  0s] CopyFiles Library/ScriptAssemblies/Oculus.Interaction.InterfaceSupport.pdb
+[1263/1309  0s] CopyFiles Library/ScriptAssemblies/AssistantVoiceCommandCommon.Editor.dll
+[1264/1309  0s] CopyFiles Library/ScriptAssemblies/AssistantVoiceCommandCommon.Editor.pdb
+[1265/1309  0s] CopyFiles Library/ScriptAssemblies/MetaXRSimulatorCore.Editor.pdb
+[1266/1309  0s] CopyFiles Library/ScriptAssemblies/MetaXRSimulatorCore.Editor.dll
+[1267/1309  0s] CopyFiles Library/ScriptAssemblies/Analytics.pdb
+[1268/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.XR.BuildingBlocks.Editor.dll
+[1269/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.XR.MultiplayerBlocks.Shared.pdb
+[1270/1309  0s] CopyFiles Library/ScriptAssemblies/Analytics.dll
+[1271/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.XR.BuildingBlocks.Editor.pdb
+[1272/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.XR.EnvironmentDepth.Editor.pdb
+[1273/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.XR.EnvironmentDepth.Editor.dll
+[1274/1309  0s] CopyFiles Library/ScriptAssemblies/Oculus.Platform.Editor.pdb
+[1275/1309  0s] CopyFiles Library/ScriptAssemblies/Oculus.Platform.Editor.dll
+[1276/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.XR.BuildingBlocks.AIBlocks.pdb
+[1277/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.XR.ImmersiveDebugger.Editor.dll
+[1278/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.XR.Editor.PlayCompanion.pdb
+[1279/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.XR.Editor.PlayCompanion.dll
+[1280/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.XR.Editor.ToolingSupport.RuntimeOptimizer.pdb
+[1281/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.XR.Editor.UPST.Notifications.dll
+[1282/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.XR.Editor.ToolingSupport.RuntimeOptimizer.dll
+[1283/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.XR.ImmersiveDebugger.Editor.pdb
+[1284/1309  0s] CopyFiles Library/ScriptAssemblies/Oculus.VR.Scripts.Editor.pdb
+[1285/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.XR.Editor.UPST.Notifications.pdb
+[1286/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.XR.BuildingBlocks.DepthAPI.pdb
+[1287/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.Wit.Dictation.Editor.dll
+[1288/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.Wit.Dictation.Editor.pdb
+[1289/1309  0s] CopyFiles Library/ScriptAssemblies/VoiceSDK.Runtime.Composer.pdb
+[1290/1309  0s] CopyFiles Library/ScriptAssemblies/Oculus.VR.Scripts.Editor.dll
+[1291/1309  0s] CopyFiles Library/ScriptAssemblies/Unity.Services.Core.Analytics.pdb
+[1292/1309  0s] CopyFiles Library/ScriptAssemblies/Unity.Services.Analytics.Editor.dll
+[1293/1309  0s] CopyFiles Library/ScriptAssemblies/Unity.Services.Analytics.Editor.pdb
+[1294/1309  0s] CopyFiles Library/ScriptAssemblies/Unity.Mathematics.Editor.dll
+[1295/1309  0s] CopyFiles Library/ScriptAssemblies/meta.xr.mrutilitykit.pdb
+[1296/1309  0s] CopyFiles Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.pdb
+[1297/1309  0s] CopyFiles Library/ScriptAssemblies/Unity.Mathematics.Editor.pdb
+[1298/1309  0s] CopyFiles Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll
+[1299/1309  0s] CopyFiles Library/ScriptAssemblies/Unity.InputSystem.ForUI.pdb
+[1300/1309  0s] CopyFiles Library/ScriptAssemblies/Oculus.VR.Editor.pdb
+[1301/1309  0s] CopyFiles Library/ScriptAssemblies/Unity.XR.Hands.Editor.pdb
+[1302/1309  0s] CopyFiles Library/ScriptAssemblies/Unity.2D.Sprite.Editor.pdb
+[1303/1309  0s] CopyFiles Library/ScriptAssemblies/Unity.XR.Hands.Editor.dll
+[1304/1309  0s] CopyFiles Library/ScriptAssemblies/UnityEngine.Advertisements.Editor.pdb
+[1305/1309  0s] CopyFiles Library/ScriptAssemblies/Oculus.VR.Editor.dll
+[1306/1309  0s] CopyFiles Library/ScriptAssemblies/UnityEngine.Advertisements.Editor.dll
+[1307/1309  0s] CopyFiles Library/ScriptAssemblies/UnityEditor.SpatialTracking.pdb
+[1308/1309  0s] CopyFiles Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll
+[1309/1309  0s] CopyFiles Library/ScriptAssemblies/Unity.AI.Navigation.Updater.dll
+[1310/1309  0s] CopyFiles Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll
+[1311/1309  0s] CopyFiles Library/ScriptAssemblies/Unity.AI.Navigation.Updater.pdb
+[1312/1309  0s] CopyFiles Library/ScriptAssemblies/VoiceSDK.Editor.dll
+[1313/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.XR.Guides.Editor.dll
+[1314/1309  0s] CopyFiles Library/ScriptAssemblies/VoiceSDK.Editor.pdb
+[1315/1309  0s] CopyFiles Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+[1316/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.XR.Guides.Editor.pdb
+[1317/1309  0s] CopyFiles Library/ScriptAssemblies/Unity.VSCode.Editor.pdb
+[1318/1309  0s] CopyFiles Library/ScriptAssemblies/VoiceSDK.Dictation.Editor.pdb
+[1319/1309  0s] CopyFiles Library/ScriptAssemblies/Unity.Rider.Editor.pdb
+[1320/1309  0s] CopyFiles Library/ScriptAssemblies/Unity.VisualStudio.Editor.pdb
+[1321/1309  0s] CopyFiles Library/ScriptAssemblies/Unity.Rider.Editor.dll
+[1322/1309  0s] CopyFiles Library/ScriptAssemblies/VoiceSDK.Dictation.Editor.dll
+[1323/1309  0s] CopyFiles Library/ScriptAssemblies/UnityEngine.Advertisements.pdb
+[1324/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.XR.Editor.StatusMenu.dll
+[1325/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.Voice.VSDKHub.Editor.pdb
+[1326/1309  0s] CopyFiles Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+[1327/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.Voice.VSDKHub.Editor.dll
+[1328/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.XR.Editor.Notifications.pdb
+[1329/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.XR.Editor.StatusMenu.pdb
+[1330/1309  0s] CopyFiles Library/ScriptAssemblies/Unity.XR.Hands.Analytics.Hooks.Editor.pdb
+[1331/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.XR.Editor.Notifications.dll
+[1332/1309  0s] CopyFiles Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.pdb
+[1333/1309  0s] CopyFiles Library/ScriptAssemblies/Unity.XR.Hands.Analytics.Hooks.Editor.dll
+[1334/1309  0s] CopyFiles Library/ScriptAssemblies/VoiceSDK.Dictation.Runtime.pdb
+[1335/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.WitAi.TTS.Editor.pdb
+[1336/1309  0s] CopyFiles Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.pdb
+[1337/1309  0s] CopyFiles Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll
+[1338/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.WitAi.TTS.Editor.dll
+[1339/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.Voice.Hub.Editor.pdb
+[1340/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.Voice.Hub.Editor.dll
+[1341/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.XR.Editor.ToolingSupport.pdb
+[1342/1309  0s] CopyFiles Library/ScriptAssemblies/Unity.Timeline.Editor.pdb
+[1343/1309  0s] CopyFiles Library/ScriptAssemblies/Oculus.Interaction.Samples.pdb
+[1344/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.XR.Editor.ToolingSupport.dll
+[1345/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.Wit.Composer.pdb
+[1346/1309  0s] CopyFiles Library/ScriptAssemblies/VoiceSDK.Runtime.pdb
+[1347/1309  0s] CopyFiles Library/ScriptAssemblies/Unity.PlasticSCM.Editor.pdb
+[1348/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.WitAi.Editor.dll
+[1349/1309  0s] CopyFiles Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.pdb
+[1350/1309  0s] CopyFiles Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll
+[1351/1309  0s] CopyFiles Library/ScriptAssemblies/Unity.Timeline.pdb
+[1352/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.WitAi.Editor.pdb
+[1353/1309  0s] CopyFiles Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+[1354/1309  0s] CopyFiles Library/ScriptAssemblies/Unity.Services.Core.Editor.pdb
+[1355/1309  0s] CopyFiles Library/ScriptAssemblies/Unity.AI.Navigation.Editor.pdb
+[1356/1309  0s] CopyFiles Library/ScriptAssemblies/Unity.AI.Navigation.Editor.dll
+[1357/1309  0s] CopyFiles Library/ScriptAssemblies/Unity.Services.Core.Editor.dll
+[1358/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.XR.Editor.Tags.dll
+[1359/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.XR.Editor.Tags.pdb
+[1360/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.WitAi.TTS.pdb
+[1361/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.Wit.Dictation.pdb
+[1362/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.WitAI.Lib.Editor.pdb
+[1363/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.WitAI.Lib.Editor.dll
+[1364/1309  0s] CopyFiles Library/ScriptAssemblies/Unity.XR.Hands.Analytics.Editor.pdb
+[1365/1309  0s] CopyFiles Library/ScriptAssemblies/Unity.Services.Analytics.pdb
+[1366/1309  0s] CopyFiles Library/ScriptAssemblies/Unity.XR.Hands.Analytics.Editor.dll
+[1367/1309  0s] CopyFiles Library/ScriptAssemblies/Unity.Services.Core.Registration.pdb
+[1368/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.XR.Editor.UserInterface.pdb
+[1369/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.XR.Editor.UserInterface.dll
+[1370/1309  0s] CopyFiles Library/ScriptAssemblies/Oculus.Interaction.OVR.pdb
+[1371/1309  0s] CopyFiles Library/ScriptAssemblies/Unity.Services.Core.Configuration.Editor.dll
+[1372/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.WitAi.pdb
+[1373/1309  0s] CopyFiles Library/ScriptAssemblies/Oculus.Interaction.Editor.pdb
+[1374/1309  0s] CopyFiles Library/ScriptAssemblies/Unity.Services.Core.Configuration.Editor.pdb
+[1375/1309  0s] CopyFiles Library/ScriptAssemblies/Unity.Services.Core.Networking.pdb
+[1376/1309  0s] CopyFiles Library/ScriptAssemblies/Unity.Services.Core.Device.pdb
+[1377/1309  0s] CopyFiles Library/ScriptAssemblies/Oculus.Haptics.pdb
+[1378/1309  0s] CopyFiles Library/ScriptAssemblies/Oculus.Interaction.Editor.dll
+[1379/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.XR.Editor.RemoteContent.dll
+[1380/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.XR.Editor.RemoteContent.pdb
+[1381/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.XR.ImmersiveDebugger.pdb
+[1382/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.VoiceSDK.Mic.Other.pdb
+[1383/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.XR.EnvironmentDepth.pdb
+[1384/1309  0s] CopyFiles Library/ScriptAssemblies/Oculus.Platform.pdb
+[1385/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.XR.BuildingBlocks.pdb
+[1386/1309  0s] CopyFiles Library/ScriptAssemblies/Unity.Services.Core.Telemetry.pdb
+[1387/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.XR.Editor.Settings.dll
+[1388/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.XR.Editor.Settings.pdb
+[1389/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.VoiceSDK.Mic.WebGL.pdb
+[1390/1309  0s] CopyFiles Library/ScriptAssemblies/Unity.Services.Core.Environments.Internal.pdb
+[1391/1309  0s] CopyFiles Library/ScriptAssemblies/Unity.Services.Core.Threading.pdb
+[1392/1309  0s] CopyFiles Library/ScriptAssemblies/Unity.Services.Core.Scheduler.pdb
+[1393/1309  0s] CopyFiles Library/ScriptAssemblies/Unity.Services.Core.Configuration.pdb
+[1394/1309  0s] CopyFiles Library/ScriptAssemblies/Unity.Services.Core.Environments.pdb
+[1395/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.VoiceSDK.Mic.Common.pdb
+[1396/1309  0s] CopyFiles Library/ScriptAssemblies/Oculus.VR.pdb
+[1397/1309  0s] CopyFiles Library/ScriptAssemblies/Unity.AI.Navigation.Editor.ConversionSystem.pdb
+[1398/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.XR.Audio.pdb
+[1399/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.Voice.Hub.Runtime.pdb
+[1400/1309  0s] CopyFiles Library/ScriptAssemblies/Unity.AI.Navigation.pdb
+[1401/1309  0s] CopyFiles Library/ScriptAssemblies/Unity.AI.Navigation.Editor.ConversionSystem.dll
+[1402/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.WitAi.Lib.pdb
+[1403/1309  0s] CopyFiles Library/ScriptAssemblies/Unity.Services.Core.Internal.pdb
+[1404/1309  0s] CopyFiles Library/ScriptAssemblies/Unity.XR.CoreUtils.Editor.dll
+[1405/1309  0s] CopyFiles Library/ScriptAssemblies/Unity.XR.CoreUtils.Editor.pdb
+[1406/1309  0s] CopyFiles Library/ScriptAssemblies/Oculus.Interaction.pdb
+[1407/1309  0s] CopyFiles Library/ScriptAssemblies/Unity.XR.Hands.pdb
+[1408/1309  0s] CopyFiles Library/ScriptAssemblies/AssistantVoiceCommandCommon.pdb
+[1409/1309  0s] CopyFiles Library/ScriptAssemblies/Unity.TextMeshPro.Editor.pdb
+[1410/1309  0s] CopyFiles Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+[1411/1309  0s] CopyFiles Library/ScriptAssemblies/VoiceSDK.Telemetry.pdb
+[1412/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.XR.ImmersiveDebugger.Interface.pdb
+[1413/1309  0s] CopyFiles Library/ScriptAssemblies/VoiceSDK.Telemetry.dll
+[1414/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.Net.endel.nativewebsocket.pdb
+[1415/1309  0s] CopyFiles Library/ScriptAssemblies/Unity.Services.Core.pdb
+[1416/1309  0s] CopyFiles Library/ScriptAssemblies/VoiceSDK.Telemetry.Runtime.pdb
+[1417/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.Voice.Opus.pdb
+[1418/1309  0s] CopyFiles Library/ScriptAssemblies/Unity.XR.CoreUtils.pdb
+[1419/1309  0s] CopyFiles Library/ScriptAssemblies/Unity.XR.Management.Editor.dll
+[1420/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.XR.Editor.EditorCoroutine.dll
+[1421/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.Voice.NLayer.pdb
+[1422/1309  0s] CopyFiles Library/ScriptAssemblies/Unity.XR.Management.Editor.pdb
+[1423/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.XR.Editor.EditorCoroutine.pdb
+[1424/1309  0s] CopyFiles Library/ScriptAssemblies/AssistantCoreSDKEditor.pdb
+[1425/1309  0s] CopyFiles Library/ScriptAssemblies/AssistantCoreSDKEditor.dll
+[1426/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.XR.Editor.Reflection.dll
+[1427/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.XR.Editor.Reflection.pdb
+[1428/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.XR.Editor.Callbacks.dll
+[1429/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.XR.Editor.Callbacks.pdb
+[1430/1309  0s] CopyFiles Library/ScriptAssemblies/Unity.Mathematics.pdb
+[1431/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.XR.Editor.Id.pdb
+[1432/1309  0s] CopyFiles Library/ScriptAssemblies/Unity.InputSystem.pdb
+[1433/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.XR.Editor.Id.dll
+[1434/1309  0s] CopyFiles Library/ScriptAssemblies/AssistantCoreSDKRuntime.pdb
+[1435/1309  0s] CopyFiles Library/ScriptAssemblies/Unity.TextMeshPro.pdb
+[1436/1309  0s] CopyFiles Library/ScriptAssemblies/UnityEngine.SpatialTracking.pdb
+[1437/1309  0s] CopyFiles Library/ScriptAssemblies/Unity.XR.Management.pdb
+[1296/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.XR.MultiplayerBlocks.Fusion.Editor.dll (+2 others) [CacheHit 86cd0609c3ec4b1ae02e5bd2595204b200000000000000000000000000000003]
+[1438/1309 1785918465s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.XR.MultiplayerBlocks.Fusion.Editor.dll (+2 others)
+[1440/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.XR.MultiplayerBlocks.Fusion.Editor.dll
+[1441/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.XR.MultiplayerBlocks.Fusion.Editor.pdb
+[1299/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.XR.MultiplayerBlocks.NGO.Editor.dll (+2 others) [CacheHit e14813cbe4fe647c0b1f7a1313fb481900000000000000000000000000000003]
+[1442/1309 1785918465s] Csc Library/Bee/artifacts/1900b0aE.dag/Meta.XR.MultiplayerBlocks.NGO.Editor.dll (+2 others)
+[1444/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.XR.MultiplayerBlocks.NGO.Editor.pdb
+[1445/1309  0s] CopyFiles Library/ScriptAssemblies/Meta.XR.MultiplayerBlocks.NGO.Editor.dll
+[1446/1309  1s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll (+2 others)
+Assets\Scripts\TelloLib\Tello.cs(726,44): warning CS1998: This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.
+
+Assets\Scripts\TelloLib\Tello.cs(782,44): warning CS1998: This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.
+
+Assets\Scripts\TelloLib\Tello.cs(892,31): warning CS0168: The variable 'ex' is declared but never used
+
+Assets\Scripts\PropellerEmergencyStop.cs(6,10): warning CS0414: The field 'PropellerEmergencyStop.motorsStopped' is assigned but its value is never used
+[1447/1309  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll
+[1448/1309  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb
+[1449/1309  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll (+2 others)
+##### CommandLine
+"D:\2022.3.40f1\Editor\Data\NetCoreRuntime\dotnet.exe" exec "D:/2022.3.40f1/Editor/Data/DotNetSdkRoslyn/csc.dll" /nostdlib /noconfig /shared "@Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.rsp" "@Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.rsp2"
+##### Contents of Library\Bee\artifacts\1900b0aE.dag\Assembly-CSharp-Editor.rsp
+-target:library
+-out:"Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll"
+-refout:"Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.ref.dll"
+-define:UNITY_2022_3_40
+-define:UNITY_2022_3
+-define:UNITY_2022
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_5_OR_NEWER
+-define:UNITY_5_6_OR_NEWER
+-define:UNITY_2017_1_OR_NEWER
+-define:UNITY_2017_2_OR_NEWER
+-define:UNITY_2017_3_OR_NEWER
+-define:UNITY_2017_4_OR_NEWER
+-define:UNITY_2018_1_OR_NEWER
+-define:UNITY_2018_2_OR_NEWER
+-define:UNITY_2018_3_OR_NEWER
+-define:UNITY_2018_4_OR_NEWER
+-define:UNITY_2019_1_OR_NEWER
+-define:UNITY_2019_2_OR_NEWER
+-define:UNITY_2019_3_OR_NEWER
+-define:UNITY_2019_4_OR_NEWER
+-define:UNITY_2020_1_OR_NEWER
+-define:UNITY_2020_2_OR_NEWER
+-define:UNITY_2020_3_OR_NEWER
+-define:UNITY_2021_1_OR_NEWER
+-define:UNITY_2021_2_OR_NEWER
+-define:UNITY_2021_3_OR_NEWER
+-define:UNITY_2022_1_OR_NEWER
+-define:UNITY_2022_2_OR_NEWER
+-define:UNITY_2022_3_OR_NEWER
+-define:PLATFORM_ARCH_64
+-define:UNITY_64
+-define:UNITY_INCLUDE_TESTS
+-define:ENABLE_AR
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_EVENT_QUEUE
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_TEXTURE_STREAMING
+-define:ENABLE_VIRTUALTEXTURING
+-define:ENABLE_LZMA
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_VR
+-define:ENABLE_WEBCAM
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_EDITOR_GAME_SERVICES
+-define:ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_HUB_LICENSE
+-define:ENABLE_WEBSOCKET_CLIENT
+-define:ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API
+-define:ENABLE_DIRECTOR_AUDIO
+-define:ENABLE_DIRECTOR_TEXTURE
+-define:ENABLE_MANAGED_JOBS
+-define:ENABLE_MANAGED_TRANSFORM_JOBS
+-define:ENABLE_MANAGED_ANIMATION_JOBS
+-define:ENABLE_MANAGED_AUDIO_JOBS
+-define:ENABLE_MANAGED_UNITYTLS
+-define:INCLUDE_DYNAMIC_GI
+-define:ENABLE_SCRIPTING_GC_WBARRIERS
+-define:PLATFORM_SUPPORTS_MONO
+-define:RENDER_SOFTWARE_CURSOR
+-define:ENABLE_VIDEO
+-define:ENABLE_ACCELERATOR_CLIENT_DEBUGGING
+-define:ENABLE_NAVIGATION_PACKAGE_DEBUG_VISUALIZATION
+-define:ENABLE_NAVIGATION_HEIGHTMESH_RUNTIME_SUPPORT
+-define:ENABLE_NAVIGATION_UI_REQUIRES_PACKAGE
+-define:PLATFORM_STANDALONE
+-define:TEXTCORE_1_0_OR_NEWER
+-define:PLATFORM_STANDALONE_WIN
+-define:UNITY_STANDALONE_WIN
+-define:UNITY_STANDALONE
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_MOVIES
+-define:ENABLE_NETWORK
+-define:ENABLE_NVIDIA
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_OUT_OF_PROCESS_CRASH_HANDLER
+-define:ENABLE_CLUSTER_SYNC
+-define:ENABLE_CLUSTERINPUT
+-define:PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP
+-define:GFXDEVICE_WAITFOREVENT_MESSAGEPUMP
+-define:PLATFORM_INITIALIZES_MEMORY_MANAGER_EXPLICITLY
+-define:ENABLE_MONO
+-define:NET_4_6
+-define:NET_UNITY_4_8
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_WIN
+-define:ENABLE_UNITY_COLLECTIONS_CHECKS
+-define:ENABLE_BURST_AOT
+-define:UNITY_TEAM_LICENSE
+-define:UNITY_PRO_LICENSE
+-define:ENABLE_CUSTOM_RENDER_TEXTURE
+-define:ENABLE_DIRECTOR
+-define:ENABLE_LOCALIZATION
+-define:ENABLE_SPRITES
+-define:ENABLE_TERRAIN
+-define:ENABLE_TILEMAP
+-define:ENABLE_TIMELINE
+-define:ENABLE_INPUT_SYSTEM
+-define:ENABLE_LEGACY_INPUT_MANAGER
+-define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
+-define:UNITY_POST_PROCESSING_STACK_V2
+-define:OVR_DISABLE_HAND_PINCH_BUTTON_MAPPING
+-define:CSHARP_7_OR_LATER
+-define:CSHARP_7_3_OR_NEWER
+-define:UNITY_EDITOR_ONLY_COMPILATION
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEditor.DiagnosticsModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEditor.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEditor.EditorToolbarModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEditor.GraphViewModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEditor.PresetsUIModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEditor.QuickSearchModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEditor.SceneTemplateModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEditor.SceneViewModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEditor.TextCoreFontEngineModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEditor.TextCoreTextEngineModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIBuilderModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIElementsModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIElementsSamplesModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.ContentLoadModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.GIModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.NVIDIAModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.PropertiesModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubsystemsModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreFontEngineModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreTextEngineModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsCommonModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityCurlModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.VirtualTexturingModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll"
+-r:"D:/2022.3.40f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Gradle.dll"
+-r:"D:/2022.3.40f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.GradleProject.dll"
+-r:"D:/2022.3.40f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll"
+-r:"D:/2022.3.40f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll"
+-r:"D:/2022.3.40f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/Microsoft.Win32.Primitives.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/netstandard.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.AppContext.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Buffers.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Collections.Concurrent.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Collections.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Collections.NonGeneric.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Collections.Specialized.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ComponentModel.Annotations.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ComponentModel.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ComponentModel.EventBasedAsync.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ComponentModel.Primitives.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ComponentModel.TypeConverter.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Console.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Data.Common.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.Contracts.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.Debug.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.FileVersionInfo.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.Process.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.StackTrace.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.TextWriterTraceListener.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.Tools.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.TraceSource.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Drawing.Primitives.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Dynamic.Runtime.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Globalization.Calendars.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Globalization.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Globalization.Extensions.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.Compression.ZipFile.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.FileSystem.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.FileSystem.DriveInfo.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.FileSystem.Primitives.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.FileSystem.Watcher.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.IsolatedStorage.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.MemoryMappedFiles.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.Pipes.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.UnmanagedMemoryStream.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Linq.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Linq.Expressions.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Linq.Parallel.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Linq.Queryable.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Memory.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Http.Rtc.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.NameResolution.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.NetworkInformation.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Ping.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Primitives.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Requests.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Security.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Sockets.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.WebHeaderCollection.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.WebSockets.Client.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.WebSockets.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ObjectModel.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.DispatchProxy.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.Emit.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.Emit.ILGeneration.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.Emit.Lightweight.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.Extensions.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.Primitives.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Resources.Reader.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Resources.ResourceManager.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Resources.Writer.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.CompilerServices.VisualC.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Extensions.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Handles.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.InteropServices.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.InteropServices.RuntimeInformation.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.InteropServices.WindowsRuntime.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Numerics.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Serialization.Formatters.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Serialization.Json.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Serialization.Primitives.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Serialization.Xml.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Claims.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Cryptography.Algorithms.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Cryptography.Csp.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Cryptography.Encoding.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Cryptography.Primitives.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Cryptography.X509Certificates.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Principal.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.SecureString.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ServiceModel.Duplex.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ServiceModel.Http.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ServiceModel.NetTcp.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ServiceModel.Primitives.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ServiceModel.Security.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Text.Encoding.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Text.Encoding.Extensions.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Text.RegularExpressions.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Overlapped.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Tasks.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Tasks.Extensions.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Tasks.Parallel.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Thread.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.ThreadPool.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Timer.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ValueTuple.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.ReaderWriter.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.XDocument.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.XmlDocument.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.XmlSerializer.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.XPath.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.XPath.XDocument.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Microsoft.CSharp.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/mscorlib.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.ComponentModel.Composition.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Core.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Data.DataSetExtensions.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Data.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Drawing.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.IO.Compression.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.IO.Compression.FileSystem.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Net.Http.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Numerics.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Numerics.Vectors.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Runtime.Serialization.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Transactions.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.dll"
+-r:"D:/2022.3.40f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.Linq.dll"
+-r:"Library/PackageCache/com.unity.analytics@3.8.1/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll"
+-r:"Library/PackageCache/com.unity.analytics@3.8.1/Unity.Analytics.Editor.dll"
+-r:"Library/PackageCache/com.unity.analytics@3.8.1/Unity.Analytics.Tracker.dll"
+-r:"Library/PackageCache/com.unity.collab-proxy@2.4.4/Lib/Editor/PlasticSCM/log4netPlastic.dll"
+-r:"Library/PackageCache/com.unity.collab-proxy@2.4.4/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll"
+-r:"Library/PackageCache/com.unity.collab-proxy@2.4.4/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll"
+-r:"Library/PackageCache/com.unity.collab-proxy@2.4.4/Lib/Editor/PlasticSCM/unityplastic.dll"
+-r:"Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
+-r:"Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/Newtonsoft.Json.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Analytics.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/AssistantCoreSDKEditor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/AssistantCoreSDKRuntime.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/AssistantVoiceCommandCommon.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/AssistantVoiceCommandCommon.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.Net.endel.nativewebsocket.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.Voice.Hub.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.Voice.Hub.Runtime.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.Voice.NLayer.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.Voice.Opus.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.Voice.VSDKHub.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.VoiceSDK.Mic.Common.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.VoiceSDK.Mic.Other.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.VoiceSDK.Mic.WebGL.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.Wit.Composer.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.Wit.Composer.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.Wit.Dictation.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.Wit.Dictation.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.WitAi.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.WitAI.Lib.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.WitAi.Lib.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.WitAi.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.WitAi.TTS.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.WitAi.TTS.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Audio.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Audio.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.BuildingBlocks.AIBlocks.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.BuildingBlocks.DepthAPI.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.BuildingBlocks.DepthAPI.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.BuildingBlocks.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.BuildingBlocks.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.BuildingBlocks.AIBlocks.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.Callbacks.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.EditorCoroutine.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.Guide.About.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.Id.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.Notifications.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.PlayCompanion.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.Reflection.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.RemoteContent.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.Settings.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.StatusMenu.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.Tags.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.TelemetryUI.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.ToolingSupport.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.ToolingSupport.RuntimeOptimizer.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.UPST.Notifications.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.UserInterface.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.EnvironmentDepth.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.EnvironmentDepth.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Guides.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.ImmersiveDebugger.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.ImmersiveDebugger.Interface.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.ImmersiveDebugger.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.MetaWand.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/meta.xr.mrutilitykit.editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/meta.xr.mrutilitykit.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.MultiplayerBlocks.Fusion.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.MultiplayerBlocks.NGO.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.MultiplayerBlocks.Shared.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.MultiplayerBlocks.Shared.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/MetaXRSimulatorCore.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Oculus.Haptics.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Oculus.Haptics.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Oculus.Interaction.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Oculus.Interaction.InterfaceSupport.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Oculus.Interaction.OVR.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Oculus.Interaction.OVR.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Oculus.Interaction.OVR.Samples.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Oculus.Interaction.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Oculus.Interaction.Samples.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Oculus.Interaction.Samples.Editor.UISet.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Oculus.Interaction.Samples.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Oculus.Platform.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Oculus.Platform.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Oculus.VR.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Oculus.VR.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Oculus.VR.Scripts.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.2D.Sprite.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.2D.Tilemap.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.Editor.ConversionSystem.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.Updater.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Analytics.DataPrivacy.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.ForUI.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Mathematics.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Mathematics.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.PlasticSCM.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Rider.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Analytics.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Analytics.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Analytics.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Environments.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VisualStudio.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.XR.CoreUtils.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.XR.CoreUtils.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.XR.Hands.Analytics.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.XR.Hands.Analytics.Hooks.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.XR.Hands.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.XR.Hands.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.XR.Management.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.XR.Management.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.SpatialTracking.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.TestRunner.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.XR.LegacyInputHelpers.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Advertisements.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Advertisements.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.SpatialTracking.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.TestRunner.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/VoiceSDK.Dictation.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/VoiceSDK.Dictation.Runtime.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/VoiceSDK.Editor.Composer.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/VoiceSDK.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/VoiceSDK.Runtime.Composer.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/VoiceSDK.Runtime.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/VoiceSDK.Telemetry.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/VoiceSDK.Telemetry.Runtime.ref.dll"
+-analyzer:"D:/2022.3.40f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
+-analyzer:"D:/2022.3.40f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
+"Assets/Editor/ArchitectureSceneSetup.cs"
+-langversion:9.0
+/unsafe+
+/deterministic
+/optimize+
+/debug:portable
+/nologo
+/RuntimeMetadataVersion:v4.0.30319
+/nowarn:0169
+/nowarn:0649
+/nowarn:0282
+/nowarn:1701
+/nowarn:1702
+/utf8output
+/preferreduilang:en-US
+/additionalfile:"Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.UnityAdditionalFile.txt"
+##### Custom Environment Variables
+DOTNET_MULTILEVEL_LOOKUP=0
+##### ExitCode
+1
+##### Output
+Assets\Editor\ArchitectureSceneSetup.cs(35,65): error CS1001: Identifier expected
+
+Assets\Editor\ArchitectureSceneSetup.cs(35,65): error CS1002: ; expected
+*** Tundra build failed (4.69 seconds), 435 items updated, 1309 evaluated
+## Script Compilation Error for: Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll (+2 others)
+## CmdLine: "D:\2022.3.40f1\Editor\Data\NetCoreRuntime\dotnet.exe" exec "D:/2022.3.40f1/Editor/Data/DotNetSdkRoslyn/csc.dll" /nostdlib /noconfig /shared "@Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.rsp" "@Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.rsp2"
+## Output:
+Assets\Editor\ArchitectureSceneSetup.cs(35,65): error CS1001: Identifier expected
+Assets\Editor\ArchitectureSceneSetup.cs(35,65): error CS1002: ; expected
+
+Assets\Scripts\TelloLib\Tello.cs(726,44): warning CS1998: This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.
+Assets\Scripts\TelloLib\Tello.cs(782,44): warning CS1998: This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.
+Assets\Scripts\TelloLib\Tello.cs(892,31): warning CS0168: The variable 'ex' is declared but never used
+Assets\Scripts\PropellerEmergencyStop.cs(6,10): warning CS0414: The field 'PropellerEmergencyStop.motorsStopped' is assigned but its value is never used
+Assets\Editor\ArchitectureSceneSetup.cs(35,65): error CS1001: Identifier expected
+Assets\Editor\ArchitectureSceneSetup.cs(35,65): error CS1002: ; expected
+AssetDatabase: script compilation time: 7.275671s
+Scripts have compiler errors.
+Exiting without the bug reporter. Application will terminate with return code 1Total cache size 268301296
+Total cache size after purge 268301296
